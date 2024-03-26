@@ -1,0 +1,32 @@
+{{#hierarchy}}
+const {{name}} = {
+  primaryEntity: "{{primaryEntity}}",
+  id: {{id}}, 
+  roles: [
+    {{#roles}}
+    {
+      name: "{{name}}",
+      condition: "{{connectionWithPrimaryEntity}}"
+    },
+    {{/roles}}
+  ],
+  entities: [
+  {{#entities}}
+    {
+      name: "{{name}}",
+      filterationKey: "{{filterationKey}}",
+      {{#condition}}
+      condition: "{{condition}}"
+      {{/condition}}
+    },
+  {{/entities}}
+  ]
+};
+{{/hierarchy}}
+
+
+export default [
+  {{#hierarchy}}
+  {{name}},
+  {{/hierarchy}}
+]

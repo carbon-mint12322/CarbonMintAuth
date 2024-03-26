@@ -1,0 +1,89 @@
+PraanaDhaara Org Structure:
+  - Headquarters
+  - Hub
+  - Cluster 
+  - Unit Office (Operator)
+
+Entities:
+1) Farmers
+     - User created with role 'Farmer' 
+     
+   Access
+      - Farmer dashboard
+      - Farmer list filtered
+      - Landparcels and crops filtered
+      - Edit Farmer
+      - Add/Edit/Delete all entities unde Farmer. 
+
+2) Landowners
+     - User crated with role 'Landowner'
+
+   Access
+      - Landowner dashboard
+      - Landowner list filtered
+      - Landparcels filtered 
+      - Edit Landowner
+      - Add/Edit/Delete all entities unde Landowner. 
+
+3) Processor 
+     - User crated with role 'Processor'
+
+   Access
+      - Processor dashboard
+      - Processor list filtered
+      - Landparcels filtered 
+      - Edit Processor 
+      - Add/Edit/Delete all entities unde Processor. 
+
+4) Unit Offices (Operators)
+    - Users can be created with the following roles and gets attached to this entity
+      - Admin
+      - Agent
+      - Field Officer
+      - ICS Manager
+      - ....
+
+   Acess:
+     Admin/ICS Manager - Add/Edit/Delete all entities under this operator 
+     Field Officer - Add/Edit/Delete events for entities under this operator      
+
+5) Service Providers
+    - Users with the following roles can be created and gets attached to this entity
+       - Admin
+       - Employee etc.
+
+   Acess:
+     Admin - Add/Edit/Delete all entities under service provider and edit service provider details 
+     Employee - Edit task 
+
+6) Agripreneurs
+   - Users with the following roles can be created and gets attached to this entity
+       - Admin 
+       - Employee 
+
+
+   Acess:
+     Admin -  Add/Edit/Delete all entities under agriprenuer and edit agripreneur details  
+     Employee - Edit task 
+
+7) Certification Bodies
+   - Users with the following roles can be created and gets attached to this entity
+       - Admin
+       - Auditor etc.
+
+   Acess:
+
+     Admin -  Add/Edit/Delete all entities under certification body and edit cb details  
+     Auditor - Add/edit inspection reports on operator
+
+
+
+
+
+
+
+
+
+
+
+

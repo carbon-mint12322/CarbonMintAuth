@@ -1,0 +1,2 @@
+yarn run v1.22.19
+$ ts-mocha -r tsconfig-paths/register 'tests/*.ts' --timeout 50000

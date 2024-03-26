@@ -1,0 +1,2177 @@
+[
+  {
+    "_id": {
+      "$oid": "63b78665ed430580b836e8a6"
+    },
+    "personalDetails": {
+      "address": {
+        "village": "Sevapur ",
+        "mandal": "karur ",
+        "state": "Tamil Nadu ",
+        "pincode": "621311"
+      },
+      "identityDetails": {
+        "identityNumber": "1234567813A",
+        "panCardFile": "https://dev.reactml.carbonmint.com/api/file/public?id=/gridfs:reactml-dev/panCardFile-1690544677032--PAn.png"
+      },
+      "firstName": "Thaiyammal",
+      "lastName": "Marvel",
+      "fathersHusbandsName": "Karuppane",
+      "primaryPhone": "+918780595907",
+      "profilePicture": "https://dev.reactml.carbonmint.com/api/file/public?id=/gridfs:reactml-dev/profilePicture-1685106575774--empty room.jpeg",
+      "email": "Thaiyammal@gmai.com"
+    },
+    "farmingExperience": {
+      "cropsWithOrganicFarmingExperience": "cotton,corn",
+      "agriAlliedActivitiesExperience": "0.5",
+      "totalFarmingExperienceYears": 5,
+      "organicFarmingExperienceYears": 3
+    },
+    "operatorDetails": {
+      "farmerID": "KOFA-61",
+      "identityDocument": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/identityDocument-1674812643775--Thayamal ICS agrement.pdf"
+    },
+    "collectives": [
+      "63b7805ca62c0f681fec4f50"
+    ],
+    "status": "Draft",
+    "active": true,
+    "agents": [
+      "63b780a0a62c0f681fec4f52"
+    ],
+    "userId": "63c21bc67bbc3398288d1ef9",
+    "identityDocumentFile": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/identityDocumentFile-1674196752290--formars (6..).pdf",
+    "gender": "Female",
+    "bankDetails": {
+      "bankDocument": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/bankDocument-1676356069370--Thayamal Bank book.pdf",
+      "name": "Indian Overseas Bank ",
+      "branch": "Kadavoor(1371)",
+      "accountNumber": "137101000014049",
+      "ifsc": "IOBA0001371"
+    },
+    "dob": "1990-11-11",
+    "documents": [
+      {
+        "documentType": "Training certificate",
+        "documentEvidence": "https://dev.reactml.carbonmint.com/api/file/public?id=/gridfs:reactml-dev/documentEvidence-1692166956914--E2kXlSFVIAA5cVF.jpeg",
+        "documentDetails": "training certificate"
+      },
+      {
+        "documentType": "Education certificate",
+        "documentEvidence": "https://dev.reactml.carbonmint.com/api/file/public?id=/gridfs:reactml-dev/documentEvidence-1692166956925--download (2).jpeg",
+        "documentDetails": "Organic Farming Certificate"
+      }
+    ],
+    "agentsDetails": [
+      {
+        "_id": "63d0bfaa8273ab2acc4e12d1",
+        "personalDetails": {
+          "firstName": "Madhu",
+          "lastName": "Daggubati",
+          "email": "daggupatimadhu@gmail.com",
+          "primaryPhone": "+917702222367"
+        }
+      }
+    ],
+    "crops": [
+      {
+        "_id": "63f5f0e0e0c7886a70fb278b",
+        "name": "Black Gram",
+        "croppingSystem": "Inter",
+        "seedVariety": "Vamban8",
+        "seedSource": "Organova",
+        "areaInAcres": 0.42,
+        "estimatedYieldTonnes": 0.126,
+        "plannedSowingDate": "2023-02-22",
+        "landParcel": {
+          "id": "63b7867aed430580b836e8ca",
+          "name": "Thaiyammal Farm"
+        },
+        "status": "Draft",
+        "id": "63f5f0e0e0c7886a70fb278b"
+      },
+      {
+        "_id": "63f5f137e0c7886a70fb279c",
+        "name": "Ashwagandha",
+        "croppingSystem": "Inter",
+        "seedVariety": "Vallabh",
+        "seedSource": "Organova",
+        "areaInAcres": 0.42,
+        "estimatedYieldTonnes": 0.42,
+        "plannedSowingDate": "2023-02-22",
+        "landParcel": {
+          "id": "63b7867aed430580b836e8ca",
+          "name": "Thaiyammal Farm"
+        },
+        "status": "Draft",
+        "id": "63f5f137e0c7886a70fb279c"
+      },
+      {
+        "_id": "6464bf48c89726534e80706d",
+        "name": "Lemon",
+        "croppingSystem": "6458c2ef71d99f213f419f0e",
+        "seedVariety": "Cereal",
+        "seedSource": "Cereal",
+        "areaInAcres": 2,
+        "estimatedYieldTonnes": 5,
+        "plannedSowingDate": "2023-05-02",
+        "landParcel": {
+          "id": "64549e1530460eb79720a624",
+          "name": "Ace Farm"
+        },
+        "status": "Draft",
+        "id": "6464bf48c89726534e80706d"
+      },
+      {
+        "_id": "64952a9a583203321654e3cf",
+        "name": "Cotton",
+        "croppingSystem": "648167953b1ec5ea36d00a31",
+        "seedVariety": "X012",
+        "seedSource": "uncle",
+        "areaInAcres": 5,
+        "estimatedYieldTonnes": 7,
+        "plannedSowingDate": "2023-03-23",
+        "landParcel": {
+          "id": "63b7867aed430580b836e8ca",
+          "name": "Thaiyammal Farm"
+        },
+        "status": "Draft",
+        "id": "64952a9a583203321654e3cf"
+      },
+      {
+        "_id": "64952ffe66820a0a1e8d0d8a",
+        "name": "Cotton",
+        "croppingSystem": "648abbd2d0212abad3966689",
+        "seedVariety": "add",
+        "seedSource": "plant",
+        "areaInAcres": 4,
+        "estimatedYieldTonnes": 8,
+        "plannedSowingDate": "2023-06-08",
+        "landParcel": {
+          "id": "63b7867aed430580b836e8ca",
+          "name": "Thaiyammal Farm"
+        },
+        "status": "Draft",
+        "id": "64952ffe66820a0a1e8d0d8a"
+      },
+      {
+        "_id": "649c0e214cc4edb2e9e92b32",
+        "name": "Cotton",
+        "croppingSystem": "649c0dd31be3c2e1d12359c4",
+        "seedVariety": "add",
+        "seedSource": "uncle",
+        "areaInAcres": 5,
+        "estimatedYieldTonnes": 7,
+        "plannedSowingDate": "2023-03-02",
+        "landParcel": {
+          "id": "63b7867aed430580b836e8ca",
+          "name": "Thaiyammal Farm"
+        },
+        "status": "Draft",
+        "id": "649c0e214cc4edb2e9e92b32"
+      }
+    ],
+    "farmerId": "63b78665ed430580b836e8a6",
+    "histories": [
+      {
+        "_id": "64991b9be38bb3a8ae09e10c",
+        "relatedTo": {
+          "objectId": "63b78665ed430580b836e8a6",
+          "schemaId": "/farmbook/farmer"
+        },
+        "createdAt": "2023-06-26T05:01:15.895Z",
+        "userItem": {
+          "_id": "63b77f59a62c0f681fec4f4b",
+          "personalDetails": {
+            "firstName": "Ashwin",
+            "lastName": "Dhanasri",
+            "email": "ashwin@carbonmint.com",
+            "primaryPhone": "+918888888888"
+          },
+          "roles": {
+            "farmbook": [
+              "AGENT",
+              "FIELD_OFFICER"
+            ],
+            "kadavur-organic-farmers": [
+              "AGENT",
+              "ADMIN"
+            ],
+            "inba-seva-sangam": [
+              "AGENT",
+              "ADMIN"
+            ]
+          },
+          "active": true,
+          "devices": [
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fRgRkbuFTvKmPPLi9HYn0c:APA91bFAq7UozCJlPldHFhKIrOH0LSa3gH-t0Ruv1WTlhlL66W_V4jQH86EtjcZkNHhPcIhqkuy1czyIjkFYO4CjsOEdBgpIhWjxPS0NDrySys_t745p0sNOz9EeoaOUYAHNlhs_NJi8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGweEe_XJRb1euDYHIZSCUY0H775RzAJBJId2iRLozpEb0OojrpR8JbiPzSqHBhB8KoFuTloHI5y2csoMWpEl_K7LP3b70Sp0VFyXPXe-qN6_255cIlvTBmjEDHuluXCtc7N4oG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGhUvRsCUeEDvUItIK-95Ze8xfNrVly_1CCyMkL8oO9CmEQ3EeuBqz5fe2pk6Mh-00LZ50s9aAVX3Ca2x5gYWuBinH8YQau5iVc_w_ldGqWMect_XhUNGCmO8-d_lErJ_itO834"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bG2Qw1V1QhJLqC3jB6yF-vcr0BdPs0vlWqS3LSO7szqjZ5ZgidbcbBrTKA8pejvMEUGaNHnELe-i9MvFhgAoWYYMX3tqUmBJLDoTbhAoWTUH3trnl_bgYjqsYYWihXdpGObJfBJ"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bFzm27OncXlDPNCCCHNylVCU4waZ0BujkdbtAmBTFf2w1pHP_LGfW6JPnPgzEQEUJLKxJH_kgeerrR2YN5gznZ3pcpW5UFFxiw9BDMLaA4ejODx9xCyeCsEck706vFMyeZq_ctM"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fCygisIPT7C9-_3mwOEueb:APA91bEwNJxLPhJ18b7NlVXvExi6Hm947e_siBBkCWrm1_2dzDrvGTqd_iTfbblkS4YbN57Ds5NWhSKX67RhdVWrcp31SF511TMSqf_ip5Lofaj7hSyoHdCdXU5g09JuA4kPkeMgBE_g"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bHdI6zkcXW98wwihEUkKUzkYpuqHzfbrzYWm9I4oF3X5xVs6nu-RTOdKxApLkjX3RTKdS6BbCyreUsEcuqDOC4emJtQa-pi0cJ5igeTBh3Ga8uzZJTFE4h9-1Bi4seAMbr_2qW8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fkZCOrlITuSXyO8Y4EAChr:APA91bFXeVNfsKm8pG-kjf73QaE1jcnUbJoUVT5cPiVAesIFyyp9ESV21or3aGh3kJNGYl5koRuTVrQmZu8H92upHaZN4_QJg8-iulzgJipeyCAAHYf4jAKPt4XZooy55N_J_hxgDg2-"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e7_ncKz7RKSfLpYD0gB9Nb:APA91bGdCBKNEzqx1rEf55vSxwGh2if1ONclvaff_0_mc8auJfb5T5tCinNlv63QLSvZ8AasoAvIU1qEPcNC3W9sqWxfZeqE4rQWvlRCQHrYVIbsWVZiXxOMVB48zmUXgdZYuQWe-oYG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "cDycRa7xRyOLXA0zbynuNb:APA91bF0_bbsKkxtasF-jng96HCdNBT11sCFB3zi4a3xd8h8VuNYFDCvJPnmz7PVz0rbrb4AnlKwqbFHTXgU9te1fxtvNJW5bDwe6nJXdVtzsJVH4MH5rKEZrkR8zVdX5MMZxYkyNplu"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fFkeGsiPRa2sn9rgeT23Mq:APA91bEvu2qa2QZlQF1OTCh64E8aUPpL7nhbikPtnmwLR0tRzcy-Q4yjRX0rNJNYHp_vsRnRsVWOa-SW9fnRnzQUj8v2FK5Inz8EOTwatzllgRmOMkT0QfqNr23-WjfAIt6cTCaI3QBp"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fH3P_s2BRJyGM-LS4z4KCl:APA91bEGZQ0co0g_mC3aeeakq1ou9xjSCnJlcoAXUYoSrjpSqULWhEGdDq9vCrw8-OCag2Upq9VTSzhAdgOQw4H0WPbnumq3hy3fbQiVgXxf0vZjg18mKhZKVgRjrjKaO9s0fMoNc_p9"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bFqXD6fddn6PF15YL8c7sGtN2-n_jjsGex9oGFewXhrJQ_6KYg7ip8ETWX_wHgrMWF7FzvJbRghDIATqZlRrZgI_gOu8zJJCOq1G_o6fgrXHIctBw-Md1WShMiymM8Y8tkNX0xS"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e3M6NZVwTCCqV3L6KEcbkn:APA91bFEBn4omGfTCwcRWcRonYQ0Vj9uXfgn81C09WcNtG6krCvprIWFMlNg3a9WUUaztf2drq9a2hs70sx1mjtAtklrLsRxIaovmjIH0WH1dsSxo4zRArhk2ibyTp6mq607axA1ObVa"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bHwDSoLh_IxXkw3TclpR6uRm02PS1fc6i1ACRGs-XVk4nvZr8HDdBuREA6WSoepHHSJyOL1H6zCW1FEMhGm_TuisD4YjuJQXhAyhByHt5uQkisZA87K2CKe59MHr0jQatwZrQGU"
+            }
+          ]
+        },
+        "id": "64991b9be38bb3a8ae09e10c"
+      },
+      {
+        "_id": "64991be4a8d3b71710f661a8",
+        "relatedTo": {
+          "objectId": "63b78665ed430580b836e8a6",
+          "schemaId": "/farmbook/farmer"
+        },
+        "createdAt": "2023-06-26T05:02:28.460Z",
+        "userItem": {
+          "_id": "63b77f59a62c0f681fec4f4b",
+          "personalDetails": {
+            "firstName": "Ashwin",
+            "lastName": "Dhanasri",
+            "email": "ashwin@carbonmint.com",
+            "primaryPhone": "+918888888888"
+          },
+          "roles": {
+            "farmbook": [
+              "AGENT",
+              "FIELD_OFFICER"
+            ],
+            "kadavur-organic-farmers": [
+              "AGENT",
+              "ADMIN"
+            ],
+            "inba-seva-sangam": [
+              "AGENT",
+              "ADMIN"
+            ]
+          },
+          "active": true,
+          "devices": [
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fRgRkbuFTvKmPPLi9HYn0c:APA91bFAq7UozCJlPldHFhKIrOH0LSa3gH-t0Ruv1WTlhlL66W_V4jQH86EtjcZkNHhPcIhqkuy1czyIjkFYO4CjsOEdBgpIhWjxPS0NDrySys_t745p0sNOz9EeoaOUYAHNlhs_NJi8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGweEe_XJRb1euDYHIZSCUY0H775RzAJBJId2iRLozpEb0OojrpR8JbiPzSqHBhB8KoFuTloHI5y2csoMWpEl_K7LP3b70Sp0VFyXPXe-qN6_255cIlvTBmjEDHuluXCtc7N4oG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGhUvRsCUeEDvUItIK-95Ze8xfNrVly_1CCyMkL8oO9CmEQ3EeuBqz5fe2pk6Mh-00LZ50s9aAVX3Ca2x5gYWuBinH8YQau5iVc_w_ldGqWMect_XhUNGCmO8-d_lErJ_itO834"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bG2Qw1V1QhJLqC3jB6yF-vcr0BdPs0vlWqS3LSO7szqjZ5ZgidbcbBrTKA8pejvMEUGaNHnELe-i9MvFhgAoWYYMX3tqUmBJLDoTbhAoWTUH3trnl_bgYjqsYYWihXdpGObJfBJ"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bFzm27OncXlDPNCCCHNylVCU4waZ0BujkdbtAmBTFf2w1pHP_LGfW6JPnPgzEQEUJLKxJH_kgeerrR2YN5gznZ3pcpW5UFFxiw9BDMLaA4ejODx9xCyeCsEck706vFMyeZq_ctM"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fCygisIPT7C9-_3mwOEueb:APA91bEwNJxLPhJ18b7NlVXvExi6Hm947e_siBBkCWrm1_2dzDrvGTqd_iTfbblkS4YbN57Ds5NWhSKX67RhdVWrcp31SF511TMSqf_ip5Lofaj7hSyoHdCdXU5g09JuA4kPkeMgBE_g"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bHdI6zkcXW98wwihEUkKUzkYpuqHzfbrzYWm9I4oF3X5xVs6nu-RTOdKxApLkjX3RTKdS6BbCyreUsEcuqDOC4emJtQa-pi0cJ5igeTBh3Ga8uzZJTFE4h9-1Bi4seAMbr_2qW8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fkZCOrlITuSXyO8Y4EAChr:APA91bFXeVNfsKm8pG-kjf73QaE1jcnUbJoUVT5cPiVAesIFyyp9ESV21or3aGh3kJNGYl5koRuTVrQmZu8H92upHaZN4_QJg8-iulzgJipeyCAAHYf4jAKPt4XZooy55N_J_hxgDg2-"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e7_ncKz7RKSfLpYD0gB9Nb:APA91bGdCBKNEzqx1rEf55vSxwGh2if1ONclvaff_0_mc8auJfb5T5tCinNlv63QLSvZ8AasoAvIU1qEPcNC3W9sqWxfZeqE4rQWvlRCQHrYVIbsWVZiXxOMVB48zmUXgdZYuQWe-oYG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "cDycRa7xRyOLXA0zbynuNb:APA91bF0_bbsKkxtasF-jng96HCdNBT11sCFB3zi4a3xd8h8VuNYFDCvJPnmz7PVz0rbrb4AnlKwqbFHTXgU9te1fxtvNJW5bDwe6nJXdVtzsJVH4MH5rKEZrkR8zVdX5MMZxYkyNplu"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fFkeGsiPRa2sn9rgeT23Mq:APA91bEvu2qa2QZlQF1OTCh64E8aUPpL7nhbikPtnmwLR0tRzcy-Q4yjRX0rNJNYHp_vsRnRsVWOa-SW9fnRnzQUj8v2FK5Inz8EOTwatzllgRmOMkT0QfqNr23-WjfAIt6cTCaI3QBp"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fH3P_s2BRJyGM-LS4z4KCl:APA91bEGZQ0co0g_mC3aeeakq1ou9xjSCnJlcoAXUYoSrjpSqULWhEGdDq9vCrw8-OCag2Upq9VTSzhAdgOQw4H0WPbnumq3hy3fbQiVgXxf0vZjg18mKhZKVgRjrjKaO9s0fMoNc_p9"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bFqXD6fddn6PF15YL8c7sGtN2-n_jjsGex9oGFewXhrJQ_6KYg7ip8ETWX_wHgrMWF7FzvJbRghDIATqZlRrZgI_gOu8zJJCOq1G_o6fgrXHIctBw-Md1WShMiymM8Y8tkNX0xS"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e3M6NZVwTCCqV3L6KEcbkn:APA91bFEBn4omGfTCwcRWcRonYQ0Vj9uXfgn81C09WcNtG6krCvprIWFMlNg3a9WUUaztf2drq9a2hs70sx1mjtAtklrLsRxIaovmjIH0WH1dsSxo4zRArhk2ibyTp6mq607axA1ObVa"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bHwDSoLh_IxXkw3TclpR6uRm02PS1fc6i1ACRGs-XVk4nvZr8HDdBuREA6WSoepHHSJyOL1H6zCW1FEMhGm_TuisD4YjuJQXhAyhByHt5uQkisZA87K2CKe59MHr0jQatwZrQGU"
+            }
+          ]
+        },
+        "id": "64991be4a8d3b71710f661a8"
+      },
+      {
+        "_id": "649a715cccd7e39af8c0372d",
+        "relatedTo": {
+          "objectId": "63b78665ed430580b836e8a6",
+          "schemaId": "/farmbook/farmer"
+        },
+        "modifications": {
+          "agents": [
+            "647486b44efc192e4231e5b4"
+          ]
+        },
+        "createdAt": "2023-06-27T05:19:24.495Z",
+        "userItem": {
+          "_id": "63b77f59a62c0f681fec4f4b",
+          "personalDetails": {
+            "firstName": "Ashwin",
+            "lastName": "Dhanasri",
+            "email": "ashwin@carbonmint.com",
+            "primaryPhone": "+918888888888"
+          },
+          "roles": {
+            "farmbook": [
+              "AGENT",
+              "FIELD_OFFICER"
+            ],
+            "kadavur-organic-farmers": [
+              "AGENT",
+              "ADMIN"
+            ],
+            "inba-seva-sangam": [
+              "AGENT",
+              "ADMIN"
+            ]
+          },
+          "active": true,
+          "devices": [
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fRgRkbuFTvKmPPLi9HYn0c:APA91bFAq7UozCJlPldHFhKIrOH0LSa3gH-t0Ruv1WTlhlL66W_V4jQH86EtjcZkNHhPcIhqkuy1czyIjkFYO4CjsOEdBgpIhWjxPS0NDrySys_t745p0sNOz9EeoaOUYAHNlhs_NJi8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGweEe_XJRb1euDYHIZSCUY0H775RzAJBJId2iRLozpEb0OojrpR8JbiPzSqHBhB8KoFuTloHI5y2csoMWpEl_K7LP3b70Sp0VFyXPXe-qN6_255cIlvTBmjEDHuluXCtc7N4oG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGhUvRsCUeEDvUItIK-95Ze8xfNrVly_1CCyMkL8oO9CmEQ3EeuBqz5fe2pk6Mh-00LZ50s9aAVX3Ca2x5gYWuBinH8YQau5iVc_w_ldGqWMect_XhUNGCmO8-d_lErJ_itO834"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bG2Qw1V1QhJLqC3jB6yF-vcr0BdPs0vlWqS3LSO7szqjZ5ZgidbcbBrTKA8pejvMEUGaNHnELe-i9MvFhgAoWYYMX3tqUmBJLDoTbhAoWTUH3trnl_bgYjqsYYWihXdpGObJfBJ"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bFzm27OncXlDPNCCCHNylVCU4waZ0BujkdbtAmBTFf2w1pHP_LGfW6JPnPgzEQEUJLKxJH_kgeerrR2YN5gznZ3pcpW5UFFxiw9BDMLaA4ejODx9xCyeCsEck706vFMyeZq_ctM"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fCygisIPT7C9-_3mwOEueb:APA91bEwNJxLPhJ18b7NlVXvExi6Hm947e_siBBkCWrm1_2dzDrvGTqd_iTfbblkS4YbN57Ds5NWhSKX67RhdVWrcp31SF511TMSqf_ip5Lofaj7hSyoHdCdXU5g09JuA4kPkeMgBE_g"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bHdI6zkcXW98wwihEUkKUzkYpuqHzfbrzYWm9I4oF3X5xVs6nu-RTOdKxApLkjX3RTKdS6BbCyreUsEcuqDOC4emJtQa-pi0cJ5igeTBh3Ga8uzZJTFE4h9-1Bi4seAMbr_2qW8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fkZCOrlITuSXyO8Y4EAChr:APA91bFXeVNfsKm8pG-kjf73QaE1jcnUbJoUVT5cPiVAesIFyyp9ESV21or3aGh3kJNGYl5koRuTVrQmZu8H92upHaZN4_QJg8-iulzgJipeyCAAHYf4jAKPt4XZooy55N_J_hxgDg2-"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e7_ncKz7RKSfLpYD0gB9Nb:APA91bGdCBKNEzqx1rEf55vSxwGh2if1ONclvaff_0_mc8auJfb5T5tCinNlv63QLSvZ8AasoAvIU1qEPcNC3W9sqWxfZeqE4rQWvlRCQHrYVIbsWVZiXxOMVB48zmUXgdZYuQWe-oYG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "cDycRa7xRyOLXA0zbynuNb:APA91bF0_bbsKkxtasF-jng96HCdNBT11sCFB3zi4a3xd8h8VuNYFDCvJPnmz7PVz0rbrb4AnlKwqbFHTXgU9te1fxtvNJW5bDwe6nJXdVtzsJVH4MH5rKEZrkR8zVdX5MMZxYkyNplu"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fFkeGsiPRa2sn9rgeT23Mq:APA91bEvu2qa2QZlQF1OTCh64E8aUPpL7nhbikPtnmwLR0tRzcy-Q4yjRX0rNJNYHp_vsRnRsVWOa-SW9fnRnzQUj8v2FK5Inz8EOTwatzllgRmOMkT0QfqNr23-WjfAIt6cTCaI3QBp"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fH3P_s2BRJyGM-LS4z4KCl:APA91bEGZQ0co0g_mC3aeeakq1ou9xjSCnJlcoAXUYoSrjpSqULWhEGdDq9vCrw8-OCag2Upq9VTSzhAdgOQw4H0WPbnumq3hy3fbQiVgXxf0vZjg18mKhZKVgRjrjKaO9s0fMoNc_p9"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bFqXD6fddn6PF15YL8c7sGtN2-n_jjsGex9oGFewXhrJQ_6KYg7ip8ETWX_wHgrMWF7FzvJbRghDIATqZlRrZgI_gOu8zJJCOq1G_o6fgrXHIctBw-Md1WShMiymM8Y8tkNX0xS"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e3M6NZVwTCCqV3L6KEcbkn:APA91bFEBn4omGfTCwcRWcRonYQ0Vj9uXfgn81C09WcNtG6krCvprIWFMlNg3a9WUUaztf2drq9a2hs70sx1mjtAtklrLsRxIaovmjIH0WH1dsSxo4zRArhk2ibyTp6mq607axA1ObVa"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bHwDSoLh_IxXkw3TclpR6uRm02PS1fc6i1ACRGs-XVk4nvZr8HDdBuREA6WSoepHHSJyOL1H6zCW1FEMhGm_TuisD4YjuJQXhAyhByHt5uQkisZA87K2CKe59MHr0jQatwZrQGU"
+            }
+          ]
+        },
+        "id": "649a715cccd7e39af8c0372d"
+      },
+      {
+        "_id": "649a7175ccd7e39af8c03762",
+        "relatedTo": {
+          "objectId": "63b78665ed430580b836e8a6",
+          "schemaId": "/farmbook/farmer"
+        },
+        "modifications": {
+          "agents": []
+        },
+        "createdAt": "2023-06-27T05:19:49.993Z",
+        "userItem": {
+          "_id": "63b77f59a62c0f681fec4f4b",
+          "personalDetails": {
+            "firstName": "Ashwin",
+            "lastName": "Dhanasri",
+            "email": "ashwin@carbonmint.com",
+            "primaryPhone": "+918888888888"
+          },
+          "roles": {
+            "farmbook": [
+              "AGENT",
+              "FIELD_OFFICER"
+            ],
+            "kadavur-organic-farmers": [
+              "AGENT",
+              "ADMIN"
+            ],
+            "inba-seva-sangam": [
+              "AGENT",
+              "ADMIN"
+            ]
+          },
+          "active": true,
+          "devices": [
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fRgRkbuFTvKmPPLi9HYn0c:APA91bFAq7UozCJlPldHFhKIrOH0LSa3gH-t0Ruv1WTlhlL66W_V4jQH86EtjcZkNHhPcIhqkuy1czyIjkFYO4CjsOEdBgpIhWjxPS0NDrySys_t745p0sNOz9EeoaOUYAHNlhs_NJi8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGweEe_XJRb1euDYHIZSCUY0H775RzAJBJId2iRLozpEb0OojrpR8JbiPzSqHBhB8KoFuTloHI5y2csoMWpEl_K7LP3b70Sp0VFyXPXe-qN6_255cIlvTBmjEDHuluXCtc7N4oG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGhUvRsCUeEDvUItIK-95Ze8xfNrVly_1CCyMkL8oO9CmEQ3EeuBqz5fe2pk6Mh-00LZ50s9aAVX3Ca2x5gYWuBinH8YQau5iVc_w_ldGqWMect_XhUNGCmO8-d_lErJ_itO834"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bG2Qw1V1QhJLqC3jB6yF-vcr0BdPs0vlWqS3LSO7szqjZ5ZgidbcbBrTKA8pejvMEUGaNHnELe-i9MvFhgAoWYYMX3tqUmBJLDoTbhAoWTUH3trnl_bgYjqsYYWihXdpGObJfBJ"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bFzm27OncXlDPNCCCHNylVCU4waZ0BujkdbtAmBTFf2w1pHP_LGfW6JPnPgzEQEUJLKxJH_kgeerrR2YN5gznZ3pcpW5UFFxiw9BDMLaA4ejODx9xCyeCsEck706vFMyeZq_ctM"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fCygisIPT7C9-_3mwOEueb:APA91bEwNJxLPhJ18b7NlVXvExi6Hm947e_siBBkCWrm1_2dzDrvGTqd_iTfbblkS4YbN57Ds5NWhSKX67RhdVWrcp31SF511TMSqf_ip5Lofaj7hSyoHdCdXU5g09JuA4kPkeMgBE_g"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bHdI6zkcXW98wwihEUkKUzkYpuqHzfbrzYWm9I4oF3X5xVs6nu-RTOdKxApLkjX3RTKdS6BbCyreUsEcuqDOC4emJtQa-pi0cJ5igeTBh3Ga8uzZJTFE4h9-1Bi4seAMbr_2qW8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fkZCOrlITuSXyO8Y4EAChr:APA91bFXeVNfsKm8pG-kjf73QaE1jcnUbJoUVT5cPiVAesIFyyp9ESV21or3aGh3kJNGYl5koRuTVrQmZu8H92upHaZN4_QJg8-iulzgJipeyCAAHYf4jAKPt4XZooy55N_J_hxgDg2-"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e7_ncKz7RKSfLpYD0gB9Nb:APA91bGdCBKNEzqx1rEf55vSxwGh2if1ONclvaff_0_mc8auJfb5T5tCinNlv63QLSvZ8AasoAvIU1qEPcNC3W9sqWxfZeqE4rQWvlRCQHrYVIbsWVZiXxOMVB48zmUXgdZYuQWe-oYG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "cDycRa7xRyOLXA0zbynuNb:APA91bF0_bbsKkxtasF-jng96HCdNBT11sCFB3zi4a3xd8h8VuNYFDCvJPnmz7PVz0rbrb4AnlKwqbFHTXgU9te1fxtvNJW5bDwe6nJXdVtzsJVH4MH5rKEZrkR8zVdX5MMZxYkyNplu"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fFkeGsiPRa2sn9rgeT23Mq:APA91bEvu2qa2QZlQF1OTCh64E8aUPpL7nhbikPtnmwLR0tRzcy-Q4yjRX0rNJNYHp_vsRnRsVWOa-SW9fnRnzQUj8v2FK5Inz8EOTwatzllgRmOMkT0QfqNr23-WjfAIt6cTCaI3QBp"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fH3P_s2BRJyGM-LS4z4KCl:APA91bEGZQ0co0g_mC3aeeakq1ou9xjSCnJlcoAXUYoSrjpSqULWhEGdDq9vCrw8-OCag2Upq9VTSzhAdgOQw4H0WPbnumq3hy3fbQiVgXxf0vZjg18mKhZKVgRjrjKaO9s0fMoNc_p9"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bFqXD6fddn6PF15YL8c7sGtN2-n_jjsGex9oGFewXhrJQ_6KYg7ip8ETWX_wHgrMWF7FzvJbRghDIATqZlRrZgI_gOu8zJJCOq1G_o6fgrXHIctBw-Md1WShMiymM8Y8tkNX0xS"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e3M6NZVwTCCqV3L6KEcbkn:APA91bFEBn4omGfTCwcRWcRonYQ0Vj9uXfgn81C09WcNtG6krCvprIWFMlNg3a9WUUaztf2drq9a2hs70sx1mjtAtklrLsRxIaovmjIH0WH1dsSxo4zRArhk2ibyTp6mq607axA1ObVa"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bHwDSoLh_IxXkw3TclpR6uRm02PS1fc6i1ACRGs-XVk4nvZr8HDdBuREA6WSoepHHSJyOL1H6zCW1FEMhGm_TuisD4YjuJQXhAyhByHt5uQkisZA87K2CKe59MHr0jQatwZrQGU"
+            }
+          ]
+        },
+        "id": "649a7175ccd7e39af8c03762"
+      },
+      {
+        "_id": "649a7185ccd7e39af8c03794",
+        "relatedTo": {
+          "objectId": "63b78665ed430580b836e8a6",
+          "schemaId": "/farmbook/farmer"
+        },
+        "modifications": {
+          "agents": []
+        },
+        "createdAt": "2023-06-27T05:20:05.859Z",
+        "userItem": {
+          "_id": "63b77f59a62c0f681fec4f4b",
+          "personalDetails": {
+            "firstName": "Ashwin",
+            "lastName": "Dhanasri",
+            "email": "ashwin@carbonmint.com",
+            "primaryPhone": "+918888888888"
+          },
+          "roles": {
+            "farmbook": [
+              "AGENT",
+              "FIELD_OFFICER"
+            ],
+            "kadavur-organic-farmers": [
+              "AGENT",
+              "ADMIN"
+            ],
+            "inba-seva-sangam": [
+              "AGENT",
+              "ADMIN"
+            ]
+          },
+          "active": true,
+          "devices": [
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fRgRkbuFTvKmPPLi9HYn0c:APA91bFAq7UozCJlPldHFhKIrOH0LSa3gH-t0Ruv1WTlhlL66W_V4jQH86EtjcZkNHhPcIhqkuy1czyIjkFYO4CjsOEdBgpIhWjxPS0NDrySys_t745p0sNOz9EeoaOUYAHNlhs_NJi8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGweEe_XJRb1euDYHIZSCUY0H775RzAJBJId2iRLozpEb0OojrpR8JbiPzSqHBhB8KoFuTloHI5y2csoMWpEl_K7LP3b70Sp0VFyXPXe-qN6_255cIlvTBmjEDHuluXCtc7N4oG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGhUvRsCUeEDvUItIK-95Ze8xfNrVly_1CCyMkL8oO9CmEQ3EeuBqz5fe2pk6Mh-00LZ50s9aAVX3Ca2x5gYWuBinH8YQau5iVc_w_ldGqWMect_XhUNGCmO8-d_lErJ_itO834"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bG2Qw1V1QhJLqC3jB6yF-vcr0BdPs0vlWqS3LSO7szqjZ5ZgidbcbBrTKA8pejvMEUGaNHnELe-i9MvFhgAoWYYMX3tqUmBJLDoTbhAoWTUH3trnl_bgYjqsYYWihXdpGObJfBJ"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bFzm27OncXlDPNCCCHNylVCU4waZ0BujkdbtAmBTFf2w1pHP_LGfW6JPnPgzEQEUJLKxJH_kgeerrR2YN5gznZ3pcpW5UFFxiw9BDMLaA4ejODx9xCyeCsEck706vFMyeZq_ctM"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fCygisIPT7C9-_3mwOEueb:APA91bEwNJxLPhJ18b7NlVXvExi6Hm947e_siBBkCWrm1_2dzDrvGTqd_iTfbblkS4YbN57Ds5NWhSKX67RhdVWrcp31SF511TMSqf_ip5Lofaj7hSyoHdCdXU5g09JuA4kPkeMgBE_g"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bHdI6zkcXW98wwihEUkKUzkYpuqHzfbrzYWm9I4oF3X5xVs6nu-RTOdKxApLkjX3RTKdS6BbCyreUsEcuqDOC4emJtQa-pi0cJ5igeTBh3Ga8uzZJTFE4h9-1Bi4seAMbr_2qW8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fkZCOrlITuSXyO8Y4EAChr:APA91bFXeVNfsKm8pG-kjf73QaE1jcnUbJoUVT5cPiVAesIFyyp9ESV21or3aGh3kJNGYl5koRuTVrQmZu8H92upHaZN4_QJg8-iulzgJipeyCAAHYf4jAKPt4XZooy55N_J_hxgDg2-"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e7_ncKz7RKSfLpYD0gB9Nb:APA91bGdCBKNEzqx1rEf55vSxwGh2if1ONclvaff_0_mc8auJfb5T5tCinNlv63QLSvZ8AasoAvIU1qEPcNC3W9sqWxfZeqE4rQWvlRCQHrYVIbsWVZiXxOMVB48zmUXgdZYuQWe-oYG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "cDycRa7xRyOLXA0zbynuNb:APA91bF0_bbsKkxtasF-jng96HCdNBT11sCFB3zi4a3xd8h8VuNYFDCvJPnmz7PVz0rbrb4AnlKwqbFHTXgU9te1fxtvNJW5bDwe6nJXdVtzsJVH4MH5rKEZrkR8zVdX5MMZxYkyNplu"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fFkeGsiPRa2sn9rgeT23Mq:APA91bEvu2qa2QZlQF1OTCh64E8aUPpL7nhbikPtnmwLR0tRzcy-Q4yjRX0rNJNYHp_vsRnRsVWOa-SW9fnRnzQUj8v2FK5Inz8EOTwatzllgRmOMkT0QfqNr23-WjfAIt6cTCaI3QBp"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fH3P_s2BRJyGM-LS4z4KCl:APA91bEGZQ0co0g_mC3aeeakq1ou9xjSCnJlcoAXUYoSrjpSqULWhEGdDq9vCrw8-OCag2Upq9VTSzhAdgOQw4H0WPbnumq3hy3fbQiVgXxf0vZjg18mKhZKVgRjrjKaO9s0fMoNc_p9"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bFqXD6fddn6PF15YL8c7sGtN2-n_jjsGex9oGFewXhrJQ_6KYg7ip8ETWX_wHgrMWF7FzvJbRghDIATqZlRrZgI_gOu8zJJCOq1G_o6fgrXHIctBw-Md1WShMiymM8Y8tkNX0xS"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e3M6NZVwTCCqV3L6KEcbkn:APA91bFEBn4omGfTCwcRWcRonYQ0Vj9uXfgn81C09WcNtG6krCvprIWFMlNg3a9WUUaztf2drq9a2hs70sx1mjtAtklrLsRxIaovmjIH0WH1dsSxo4zRArhk2ibyTp6mq607axA1ObVa"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bHwDSoLh_IxXkw3TclpR6uRm02PS1fc6i1ACRGs-XVk4nvZr8HDdBuREA6WSoepHHSJyOL1H6zCW1FEMhGm_TuisD4YjuJQXhAyhByHt5uQkisZA87K2CKe59MHr0jQatwZrQGU"
+            }
+          ]
+        },
+        "id": "649a7185ccd7e39af8c03794"
+      },
+      {
+        "_id": "649a71a0ccd7e39af8c037c6",
+        "relatedTo": {
+          "objectId": "63b78665ed430580b836e8a6",
+          "schemaId": "/farmbook/farmer"
+        },
+        "modifications": {
+          "agents": [
+            "647486b44efc192e4231e5b4"
+          ]
+        },
+        "createdAt": "2023-06-27T05:20:32.296Z",
+        "userItem": {
+          "_id": "63b77f59a62c0f681fec4f4b",
+          "personalDetails": {
+            "firstName": "Ashwin",
+            "lastName": "Dhanasri",
+            "email": "ashwin@carbonmint.com",
+            "primaryPhone": "+918888888888"
+          },
+          "roles": {
+            "farmbook": [
+              "AGENT",
+              "FIELD_OFFICER"
+            ],
+            "kadavur-organic-farmers": [
+              "AGENT",
+              "ADMIN"
+            ],
+            "inba-seva-sangam": [
+              "AGENT",
+              "ADMIN"
+            ]
+          },
+          "active": true,
+          "devices": [
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fRgRkbuFTvKmPPLi9HYn0c:APA91bFAq7UozCJlPldHFhKIrOH0LSa3gH-t0Ruv1WTlhlL66W_V4jQH86EtjcZkNHhPcIhqkuy1czyIjkFYO4CjsOEdBgpIhWjxPS0NDrySys_t745p0sNOz9EeoaOUYAHNlhs_NJi8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGweEe_XJRb1euDYHIZSCUY0H775RzAJBJId2iRLozpEb0OojrpR8JbiPzSqHBhB8KoFuTloHI5y2csoMWpEl_K7LP3b70Sp0VFyXPXe-qN6_255cIlvTBmjEDHuluXCtc7N4oG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGhUvRsCUeEDvUItIK-95Ze8xfNrVly_1CCyMkL8oO9CmEQ3EeuBqz5fe2pk6Mh-00LZ50s9aAVX3Ca2x5gYWuBinH8YQau5iVc_w_ldGqWMect_XhUNGCmO8-d_lErJ_itO834"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bG2Qw1V1QhJLqC3jB6yF-vcr0BdPs0vlWqS3LSO7szqjZ5ZgidbcbBrTKA8pejvMEUGaNHnELe-i9MvFhgAoWYYMX3tqUmBJLDoTbhAoWTUH3trnl_bgYjqsYYWihXdpGObJfBJ"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bFzm27OncXlDPNCCCHNylVCU4waZ0BujkdbtAmBTFf2w1pHP_LGfW6JPnPgzEQEUJLKxJH_kgeerrR2YN5gznZ3pcpW5UFFxiw9BDMLaA4ejODx9xCyeCsEck706vFMyeZq_ctM"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fCygisIPT7C9-_3mwOEueb:APA91bEwNJxLPhJ18b7NlVXvExi6Hm947e_siBBkCWrm1_2dzDrvGTqd_iTfbblkS4YbN57Ds5NWhSKX67RhdVWrcp31SF511TMSqf_ip5Lofaj7hSyoHdCdXU5g09JuA4kPkeMgBE_g"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bHdI6zkcXW98wwihEUkKUzkYpuqHzfbrzYWm9I4oF3X5xVs6nu-RTOdKxApLkjX3RTKdS6BbCyreUsEcuqDOC4emJtQa-pi0cJ5igeTBh3Ga8uzZJTFE4h9-1Bi4seAMbr_2qW8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fkZCOrlITuSXyO8Y4EAChr:APA91bFXeVNfsKm8pG-kjf73QaE1jcnUbJoUVT5cPiVAesIFyyp9ESV21or3aGh3kJNGYl5koRuTVrQmZu8H92upHaZN4_QJg8-iulzgJipeyCAAHYf4jAKPt4XZooy55N_J_hxgDg2-"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e7_ncKz7RKSfLpYD0gB9Nb:APA91bGdCBKNEzqx1rEf55vSxwGh2if1ONclvaff_0_mc8auJfb5T5tCinNlv63QLSvZ8AasoAvIU1qEPcNC3W9sqWxfZeqE4rQWvlRCQHrYVIbsWVZiXxOMVB48zmUXgdZYuQWe-oYG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "cDycRa7xRyOLXA0zbynuNb:APA91bF0_bbsKkxtasF-jng96HCdNBT11sCFB3zi4a3xd8h8VuNYFDCvJPnmz7PVz0rbrb4AnlKwqbFHTXgU9te1fxtvNJW5bDwe6nJXdVtzsJVH4MH5rKEZrkR8zVdX5MMZxYkyNplu"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fFkeGsiPRa2sn9rgeT23Mq:APA91bEvu2qa2QZlQF1OTCh64E8aUPpL7nhbikPtnmwLR0tRzcy-Q4yjRX0rNJNYHp_vsRnRsVWOa-SW9fnRnzQUj8v2FK5Inz8EOTwatzllgRmOMkT0QfqNr23-WjfAIt6cTCaI3QBp"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fH3P_s2BRJyGM-LS4z4KCl:APA91bEGZQ0co0g_mC3aeeakq1ou9xjSCnJlcoAXUYoSrjpSqULWhEGdDq9vCrw8-OCag2Upq9VTSzhAdgOQw4H0WPbnumq3hy3fbQiVgXxf0vZjg18mKhZKVgRjrjKaO9s0fMoNc_p9"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bFqXD6fddn6PF15YL8c7sGtN2-n_jjsGex9oGFewXhrJQ_6KYg7ip8ETWX_wHgrMWF7FzvJbRghDIATqZlRrZgI_gOu8zJJCOq1G_o6fgrXHIctBw-Md1WShMiymM8Y8tkNX0xS"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e3M6NZVwTCCqV3L6KEcbkn:APA91bFEBn4omGfTCwcRWcRonYQ0Vj9uXfgn81C09WcNtG6krCvprIWFMlNg3a9WUUaztf2drq9a2hs70sx1mjtAtklrLsRxIaovmjIH0WH1dsSxo4zRArhk2ibyTp6mq607axA1ObVa"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bHwDSoLh_IxXkw3TclpR6uRm02PS1fc6i1ACRGs-XVk4nvZr8HDdBuREA6WSoepHHSJyOL1H6zCW1FEMhGm_TuisD4YjuJQXhAyhByHt5uQkisZA87K2CKe59MHr0jQatwZrQGU"
+            }
+          ]
+        },
+        "id": "649a71a0ccd7e39af8c037c6"
+      },
+      {
+        "_id": "649a720bccd7e39af8c03801",
+        "relatedTo": {
+          "objectId": "63b78665ed430580b836e8a6",
+          "schemaId": "/farmbook/farmer"
+        },
+        "modifications": {
+          "agents": []
+        },
+        "createdAt": "2023-06-27T05:22:19.413Z",
+        "userItem": {
+          "_id": "63b77f59a62c0f681fec4f4b",
+          "personalDetails": {
+            "firstName": "Ashwin",
+            "lastName": "Dhanasri",
+            "email": "ashwin@carbonmint.com",
+            "primaryPhone": "+918888888888"
+          },
+          "roles": {
+            "farmbook": [
+              "AGENT",
+              "FIELD_OFFICER"
+            ],
+            "kadavur-organic-farmers": [
+              "AGENT",
+              "ADMIN"
+            ],
+            "inba-seva-sangam": [
+              "AGENT",
+              "ADMIN"
+            ]
+          },
+          "active": true,
+          "devices": [
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fRgRkbuFTvKmPPLi9HYn0c:APA91bFAq7UozCJlPldHFhKIrOH0LSa3gH-t0Ruv1WTlhlL66W_V4jQH86EtjcZkNHhPcIhqkuy1czyIjkFYO4CjsOEdBgpIhWjxPS0NDrySys_t745p0sNOz9EeoaOUYAHNlhs_NJi8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGweEe_XJRb1euDYHIZSCUY0H775RzAJBJId2iRLozpEb0OojrpR8JbiPzSqHBhB8KoFuTloHI5y2csoMWpEl_K7LP3b70Sp0VFyXPXe-qN6_255cIlvTBmjEDHuluXCtc7N4oG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGhUvRsCUeEDvUItIK-95Ze8xfNrVly_1CCyMkL8oO9CmEQ3EeuBqz5fe2pk6Mh-00LZ50s9aAVX3Ca2x5gYWuBinH8YQau5iVc_w_ldGqWMect_XhUNGCmO8-d_lErJ_itO834"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bG2Qw1V1QhJLqC3jB6yF-vcr0BdPs0vlWqS3LSO7szqjZ5ZgidbcbBrTKA8pejvMEUGaNHnELe-i9MvFhgAoWYYMX3tqUmBJLDoTbhAoWTUH3trnl_bgYjqsYYWihXdpGObJfBJ"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bFzm27OncXlDPNCCCHNylVCU4waZ0BujkdbtAmBTFf2w1pHP_LGfW6JPnPgzEQEUJLKxJH_kgeerrR2YN5gznZ3pcpW5UFFxiw9BDMLaA4ejODx9xCyeCsEck706vFMyeZq_ctM"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fCygisIPT7C9-_3mwOEueb:APA91bEwNJxLPhJ18b7NlVXvExi6Hm947e_siBBkCWrm1_2dzDrvGTqd_iTfbblkS4YbN57Ds5NWhSKX67RhdVWrcp31SF511TMSqf_ip5Lofaj7hSyoHdCdXU5g09JuA4kPkeMgBE_g"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bHdI6zkcXW98wwihEUkKUzkYpuqHzfbrzYWm9I4oF3X5xVs6nu-RTOdKxApLkjX3RTKdS6BbCyreUsEcuqDOC4emJtQa-pi0cJ5igeTBh3Ga8uzZJTFE4h9-1Bi4seAMbr_2qW8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fkZCOrlITuSXyO8Y4EAChr:APA91bFXeVNfsKm8pG-kjf73QaE1jcnUbJoUVT5cPiVAesIFyyp9ESV21or3aGh3kJNGYl5koRuTVrQmZu8H92upHaZN4_QJg8-iulzgJipeyCAAHYf4jAKPt4XZooy55N_J_hxgDg2-"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e7_ncKz7RKSfLpYD0gB9Nb:APA91bGdCBKNEzqx1rEf55vSxwGh2if1ONclvaff_0_mc8auJfb5T5tCinNlv63QLSvZ8AasoAvIU1qEPcNC3W9sqWxfZeqE4rQWvlRCQHrYVIbsWVZiXxOMVB48zmUXgdZYuQWe-oYG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "cDycRa7xRyOLXA0zbynuNb:APA91bF0_bbsKkxtasF-jng96HCdNBT11sCFB3zi4a3xd8h8VuNYFDCvJPnmz7PVz0rbrb4AnlKwqbFHTXgU9te1fxtvNJW5bDwe6nJXdVtzsJVH4MH5rKEZrkR8zVdX5MMZxYkyNplu"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fFkeGsiPRa2sn9rgeT23Mq:APA91bEvu2qa2QZlQF1OTCh64E8aUPpL7nhbikPtnmwLR0tRzcy-Q4yjRX0rNJNYHp_vsRnRsVWOa-SW9fnRnzQUj8v2FK5Inz8EOTwatzllgRmOMkT0QfqNr23-WjfAIt6cTCaI3QBp"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fH3P_s2BRJyGM-LS4z4KCl:APA91bEGZQ0co0g_mC3aeeakq1ou9xjSCnJlcoAXUYoSrjpSqULWhEGdDq9vCrw8-OCag2Upq9VTSzhAdgOQw4H0WPbnumq3hy3fbQiVgXxf0vZjg18mKhZKVgRjrjKaO9s0fMoNc_p9"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bFqXD6fddn6PF15YL8c7sGtN2-n_jjsGex9oGFewXhrJQ_6KYg7ip8ETWX_wHgrMWF7FzvJbRghDIATqZlRrZgI_gOu8zJJCOq1G_o6fgrXHIctBw-Md1WShMiymM8Y8tkNX0xS"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e3M6NZVwTCCqV3L6KEcbkn:APA91bFEBn4omGfTCwcRWcRonYQ0Vj9uXfgn81C09WcNtG6krCvprIWFMlNg3a9WUUaztf2drq9a2hs70sx1mjtAtklrLsRxIaovmjIH0WH1dsSxo4zRArhk2ibyTp6mq607axA1ObVa"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bHwDSoLh_IxXkw3TclpR6uRm02PS1fc6i1ACRGs-XVk4nvZr8HDdBuREA6WSoepHHSJyOL1H6zCW1FEMhGm_TuisD4YjuJQXhAyhByHt5uQkisZA87K2CKe59MHr0jQatwZrQGU"
+            }
+          ]
+        },
+        "id": "649a720bccd7e39af8c03801"
+      },
+      {
+        "_id": "649a7237ccd7e39af8c03836",
+        "relatedTo": {
+          "objectId": "63b78665ed430580b836e8a6",
+          "schemaId": "/farmbook/farmer"
+        },
+        "modifications": {
+          "agents": [
+            "647486b44efc192e4231e5b4"
+          ]
+        },
+        "createdAt": "2023-06-27T05:23:03.107Z",
+        "userItem": {
+          "_id": "63b77f59a62c0f681fec4f4b",
+          "personalDetails": {
+            "firstName": "Ashwin",
+            "lastName": "Dhanasri",
+            "email": "ashwin@carbonmint.com",
+            "primaryPhone": "+918888888888"
+          },
+          "roles": {
+            "farmbook": [
+              "AGENT",
+              "FIELD_OFFICER"
+            ],
+            "kadavur-organic-farmers": [
+              "AGENT",
+              "ADMIN"
+            ],
+            "inba-seva-sangam": [
+              "AGENT",
+              "ADMIN"
+            ]
+          },
+          "active": true,
+          "devices": [
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fRgRkbuFTvKmPPLi9HYn0c:APA91bFAq7UozCJlPldHFhKIrOH0LSa3gH-t0Ruv1WTlhlL66W_V4jQH86EtjcZkNHhPcIhqkuy1czyIjkFYO4CjsOEdBgpIhWjxPS0NDrySys_t745p0sNOz9EeoaOUYAHNlhs_NJi8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGweEe_XJRb1euDYHIZSCUY0H775RzAJBJId2iRLozpEb0OojrpR8JbiPzSqHBhB8KoFuTloHI5y2csoMWpEl_K7LP3b70Sp0VFyXPXe-qN6_255cIlvTBmjEDHuluXCtc7N4oG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGhUvRsCUeEDvUItIK-95Ze8xfNrVly_1CCyMkL8oO9CmEQ3EeuBqz5fe2pk6Mh-00LZ50s9aAVX3Ca2x5gYWuBinH8YQau5iVc_w_ldGqWMect_XhUNGCmO8-d_lErJ_itO834"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bG2Qw1V1QhJLqC3jB6yF-vcr0BdPs0vlWqS3LSO7szqjZ5ZgidbcbBrTKA8pejvMEUGaNHnELe-i9MvFhgAoWYYMX3tqUmBJLDoTbhAoWTUH3trnl_bgYjqsYYWihXdpGObJfBJ"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bFzm27OncXlDPNCCCHNylVCU4waZ0BujkdbtAmBTFf2w1pHP_LGfW6JPnPgzEQEUJLKxJH_kgeerrR2YN5gznZ3pcpW5UFFxiw9BDMLaA4ejODx9xCyeCsEck706vFMyeZq_ctM"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fCygisIPT7C9-_3mwOEueb:APA91bEwNJxLPhJ18b7NlVXvExi6Hm947e_siBBkCWrm1_2dzDrvGTqd_iTfbblkS4YbN57Ds5NWhSKX67RhdVWrcp31SF511TMSqf_ip5Lofaj7hSyoHdCdXU5g09JuA4kPkeMgBE_g"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bHdI6zkcXW98wwihEUkKUzkYpuqHzfbrzYWm9I4oF3X5xVs6nu-RTOdKxApLkjX3RTKdS6BbCyreUsEcuqDOC4emJtQa-pi0cJ5igeTBh3Ga8uzZJTFE4h9-1Bi4seAMbr_2qW8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fkZCOrlITuSXyO8Y4EAChr:APA91bFXeVNfsKm8pG-kjf73QaE1jcnUbJoUVT5cPiVAesIFyyp9ESV21or3aGh3kJNGYl5koRuTVrQmZu8H92upHaZN4_QJg8-iulzgJipeyCAAHYf4jAKPt4XZooy55N_J_hxgDg2-"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e7_ncKz7RKSfLpYD0gB9Nb:APA91bGdCBKNEzqx1rEf55vSxwGh2if1ONclvaff_0_mc8auJfb5T5tCinNlv63QLSvZ8AasoAvIU1qEPcNC3W9sqWxfZeqE4rQWvlRCQHrYVIbsWVZiXxOMVB48zmUXgdZYuQWe-oYG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "cDycRa7xRyOLXA0zbynuNb:APA91bF0_bbsKkxtasF-jng96HCdNBT11sCFB3zi4a3xd8h8VuNYFDCvJPnmz7PVz0rbrb4AnlKwqbFHTXgU9te1fxtvNJW5bDwe6nJXdVtzsJVH4MH5rKEZrkR8zVdX5MMZxYkyNplu"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fFkeGsiPRa2sn9rgeT23Mq:APA91bEvu2qa2QZlQF1OTCh64E8aUPpL7nhbikPtnmwLR0tRzcy-Q4yjRX0rNJNYHp_vsRnRsVWOa-SW9fnRnzQUj8v2FK5Inz8EOTwatzllgRmOMkT0QfqNr23-WjfAIt6cTCaI3QBp"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fH3P_s2BRJyGM-LS4z4KCl:APA91bEGZQ0co0g_mC3aeeakq1ou9xjSCnJlcoAXUYoSrjpSqULWhEGdDq9vCrw8-OCag2Upq9VTSzhAdgOQw4H0WPbnumq3hy3fbQiVgXxf0vZjg18mKhZKVgRjrjKaO9s0fMoNc_p9"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bFqXD6fddn6PF15YL8c7sGtN2-n_jjsGex9oGFewXhrJQ_6KYg7ip8ETWX_wHgrMWF7FzvJbRghDIATqZlRrZgI_gOu8zJJCOq1G_o6fgrXHIctBw-Md1WShMiymM8Y8tkNX0xS"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e3M6NZVwTCCqV3L6KEcbkn:APA91bFEBn4omGfTCwcRWcRonYQ0Vj9uXfgn81C09WcNtG6krCvprIWFMlNg3a9WUUaztf2drq9a2hs70sx1mjtAtklrLsRxIaovmjIH0WH1dsSxo4zRArhk2ibyTp6mq607axA1ObVa"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bHwDSoLh_IxXkw3TclpR6uRm02PS1fc6i1ACRGs-XVk4nvZr8HDdBuREA6WSoepHHSJyOL1H6zCW1FEMhGm_TuisD4YjuJQXhAyhByHt5uQkisZA87K2CKe59MHr0jQatwZrQGU"
+            }
+          ]
+        },
+        "id": "649a7237ccd7e39af8c03836"
+      },
+      {
+        "_id": "649a73e39dcbeb2a3650224f",
+        "relatedTo": {
+          "objectId": "63b78665ed430580b836e8a6",
+          "schemaId": "/farmbook/farmer"
+        },
+        "modifications": {
+          "agents": []
+        },
+        "createdAt": "2023-06-27T05:30:11.782Z",
+        "userItem": {
+          "_id": "63b77f59a62c0f681fec4f4b",
+          "personalDetails": {
+            "firstName": "Ashwin",
+            "lastName": "Dhanasri",
+            "email": "ashwin@carbonmint.com",
+            "primaryPhone": "+918888888888"
+          },
+          "roles": {
+            "farmbook": [
+              "AGENT",
+              "FIELD_OFFICER"
+            ],
+            "kadavur-organic-farmers": [
+              "AGENT",
+              "ADMIN"
+            ],
+            "inba-seva-sangam": [
+              "AGENT",
+              "ADMIN"
+            ]
+          },
+          "active": true,
+          "devices": [
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fRgRkbuFTvKmPPLi9HYn0c:APA91bFAq7UozCJlPldHFhKIrOH0LSa3gH-t0Ruv1WTlhlL66W_V4jQH86EtjcZkNHhPcIhqkuy1czyIjkFYO4CjsOEdBgpIhWjxPS0NDrySys_t745p0sNOz9EeoaOUYAHNlhs_NJi8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGweEe_XJRb1euDYHIZSCUY0H775RzAJBJId2iRLozpEb0OojrpR8JbiPzSqHBhB8KoFuTloHI5y2csoMWpEl_K7LP3b70Sp0VFyXPXe-qN6_255cIlvTBmjEDHuluXCtc7N4oG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGhUvRsCUeEDvUItIK-95Ze8xfNrVly_1CCyMkL8oO9CmEQ3EeuBqz5fe2pk6Mh-00LZ50s9aAVX3Ca2x5gYWuBinH8YQau5iVc_w_ldGqWMect_XhUNGCmO8-d_lErJ_itO834"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bG2Qw1V1QhJLqC3jB6yF-vcr0BdPs0vlWqS3LSO7szqjZ5ZgidbcbBrTKA8pejvMEUGaNHnELe-i9MvFhgAoWYYMX3tqUmBJLDoTbhAoWTUH3trnl_bgYjqsYYWihXdpGObJfBJ"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bFzm27OncXlDPNCCCHNylVCU4waZ0BujkdbtAmBTFf2w1pHP_LGfW6JPnPgzEQEUJLKxJH_kgeerrR2YN5gznZ3pcpW5UFFxiw9BDMLaA4ejODx9xCyeCsEck706vFMyeZq_ctM"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fCygisIPT7C9-_3mwOEueb:APA91bEwNJxLPhJ18b7NlVXvExi6Hm947e_siBBkCWrm1_2dzDrvGTqd_iTfbblkS4YbN57Ds5NWhSKX67RhdVWrcp31SF511TMSqf_ip5Lofaj7hSyoHdCdXU5g09JuA4kPkeMgBE_g"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bHdI6zkcXW98wwihEUkKUzkYpuqHzfbrzYWm9I4oF3X5xVs6nu-RTOdKxApLkjX3RTKdS6BbCyreUsEcuqDOC4emJtQa-pi0cJ5igeTBh3Ga8uzZJTFE4h9-1Bi4seAMbr_2qW8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fkZCOrlITuSXyO8Y4EAChr:APA91bFXeVNfsKm8pG-kjf73QaE1jcnUbJoUVT5cPiVAesIFyyp9ESV21or3aGh3kJNGYl5koRuTVrQmZu8H92upHaZN4_QJg8-iulzgJipeyCAAHYf4jAKPt4XZooy55N_J_hxgDg2-"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e7_ncKz7RKSfLpYD0gB9Nb:APA91bGdCBKNEzqx1rEf55vSxwGh2if1ONclvaff_0_mc8auJfb5T5tCinNlv63QLSvZ8AasoAvIU1qEPcNC3W9sqWxfZeqE4rQWvlRCQHrYVIbsWVZiXxOMVB48zmUXgdZYuQWe-oYG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "cDycRa7xRyOLXA0zbynuNb:APA91bF0_bbsKkxtasF-jng96HCdNBT11sCFB3zi4a3xd8h8VuNYFDCvJPnmz7PVz0rbrb4AnlKwqbFHTXgU9te1fxtvNJW5bDwe6nJXdVtzsJVH4MH5rKEZrkR8zVdX5MMZxYkyNplu"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fFkeGsiPRa2sn9rgeT23Mq:APA91bEvu2qa2QZlQF1OTCh64E8aUPpL7nhbikPtnmwLR0tRzcy-Q4yjRX0rNJNYHp_vsRnRsVWOa-SW9fnRnzQUj8v2FK5Inz8EOTwatzllgRmOMkT0QfqNr23-WjfAIt6cTCaI3QBp"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fH3P_s2BRJyGM-LS4z4KCl:APA91bEGZQ0co0g_mC3aeeakq1ou9xjSCnJlcoAXUYoSrjpSqULWhEGdDq9vCrw8-OCag2Upq9VTSzhAdgOQw4H0WPbnumq3hy3fbQiVgXxf0vZjg18mKhZKVgRjrjKaO9s0fMoNc_p9"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bFqXD6fddn6PF15YL8c7sGtN2-n_jjsGex9oGFewXhrJQ_6KYg7ip8ETWX_wHgrMWF7FzvJbRghDIATqZlRrZgI_gOu8zJJCOq1G_o6fgrXHIctBw-Md1WShMiymM8Y8tkNX0xS"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e3M6NZVwTCCqV3L6KEcbkn:APA91bFEBn4omGfTCwcRWcRonYQ0Vj9uXfgn81C09WcNtG6krCvprIWFMlNg3a9WUUaztf2drq9a2hs70sx1mjtAtklrLsRxIaovmjIH0WH1dsSxo4zRArhk2ibyTp6mq607axA1ObVa"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bHwDSoLh_IxXkw3TclpR6uRm02PS1fc6i1ACRGs-XVk4nvZr8HDdBuREA6WSoepHHSJyOL1H6zCW1FEMhGm_TuisD4YjuJQXhAyhByHt5uQkisZA87K2CKe59MHr0jQatwZrQGU"
+            }
+          ]
+        },
+        "id": "649a73e39dcbeb2a3650224f"
+      },
+      {
+        "_id": "649bffb149f92ab255e631ff",
+        "relatedTo": {
+          "objectId": "63b78665ed430580b836e8a6",
+          "schemaId": "/farmbook/farmer"
+        },
+        "createdAt": "2023-06-28T09:38:57.800Z",
+        "userItem": {
+          "_id": "63b77f59a62c0f681fec4f4b",
+          "personalDetails": {
+            "firstName": "Ashwin",
+            "lastName": "Dhanasri",
+            "email": "ashwin@carbonmint.com",
+            "primaryPhone": "+918888888888"
+          },
+          "roles": {
+            "farmbook": [
+              "AGENT",
+              "FIELD_OFFICER"
+            ],
+            "kadavur-organic-farmers": [
+              "AGENT",
+              "ADMIN"
+            ],
+            "inba-seva-sangam": [
+              "AGENT",
+              "ADMIN"
+            ]
+          },
+          "active": true,
+          "devices": [
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fRgRkbuFTvKmPPLi9HYn0c:APA91bFAq7UozCJlPldHFhKIrOH0LSa3gH-t0Ruv1WTlhlL66W_V4jQH86EtjcZkNHhPcIhqkuy1czyIjkFYO4CjsOEdBgpIhWjxPS0NDrySys_t745p0sNOz9EeoaOUYAHNlhs_NJi8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGweEe_XJRb1euDYHIZSCUY0H775RzAJBJId2iRLozpEb0OojrpR8JbiPzSqHBhB8KoFuTloHI5y2csoMWpEl_K7LP3b70Sp0VFyXPXe-qN6_255cIlvTBmjEDHuluXCtc7N4oG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGhUvRsCUeEDvUItIK-95Ze8xfNrVly_1CCyMkL8oO9CmEQ3EeuBqz5fe2pk6Mh-00LZ50s9aAVX3Ca2x5gYWuBinH8YQau5iVc_w_ldGqWMect_XhUNGCmO8-d_lErJ_itO834"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bG2Qw1V1QhJLqC3jB6yF-vcr0BdPs0vlWqS3LSO7szqjZ5ZgidbcbBrTKA8pejvMEUGaNHnELe-i9MvFhgAoWYYMX3tqUmBJLDoTbhAoWTUH3trnl_bgYjqsYYWihXdpGObJfBJ"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bFzm27OncXlDPNCCCHNylVCU4waZ0BujkdbtAmBTFf2w1pHP_LGfW6JPnPgzEQEUJLKxJH_kgeerrR2YN5gznZ3pcpW5UFFxiw9BDMLaA4ejODx9xCyeCsEck706vFMyeZq_ctM"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fCygisIPT7C9-_3mwOEueb:APA91bEwNJxLPhJ18b7NlVXvExi6Hm947e_siBBkCWrm1_2dzDrvGTqd_iTfbblkS4YbN57Ds5NWhSKX67RhdVWrcp31SF511TMSqf_ip5Lofaj7hSyoHdCdXU5g09JuA4kPkeMgBE_g"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bHdI6zkcXW98wwihEUkKUzkYpuqHzfbrzYWm9I4oF3X5xVs6nu-RTOdKxApLkjX3RTKdS6BbCyreUsEcuqDOC4emJtQa-pi0cJ5igeTBh3Ga8uzZJTFE4h9-1Bi4seAMbr_2qW8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fkZCOrlITuSXyO8Y4EAChr:APA91bFXeVNfsKm8pG-kjf73QaE1jcnUbJoUVT5cPiVAesIFyyp9ESV21or3aGh3kJNGYl5koRuTVrQmZu8H92upHaZN4_QJg8-iulzgJipeyCAAHYf4jAKPt4XZooy55N_J_hxgDg2-"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e7_ncKz7RKSfLpYD0gB9Nb:APA91bGdCBKNEzqx1rEf55vSxwGh2if1ONclvaff_0_mc8auJfb5T5tCinNlv63QLSvZ8AasoAvIU1qEPcNC3W9sqWxfZeqE4rQWvlRCQHrYVIbsWVZiXxOMVB48zmUXgdZYuQWe-oYG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "cDycRa7xRyOLXA0zbynuNb:APA91bF0_bbsKkxtasF-jng96HCdNBT11sCFB3zi4a3xd8h8VuNYFDCvJPnmz7PVz0rbrb4AnlKwqbFHTXgU9te1fxtvNJW5bDwe6nJXdVtzsJVH4MH5rKEZrkR8zVdX5MMZxYkyNplu"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fFkeGsiPRa2sn9rgeT23Mq:APA91bEvu2qa2QZlQF1OTCh64E8aUPpL7nhbikPtnmwLR0tRzcy-Q4yjRX0rNJNYHp_vsRnRsVWOa-SW9fnRnzQUj8v2FK5Inz8EOTwatzllgRmOMkT0QfqNr23-WjfAIt6cTCaI3QBp"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fH3P_s2BRJyGM-LS4z4KCl:APA91bEGZQ0co0g_mC3aeeakq1ou9xjSCnJlcoAXUYoSrjpSqULWhEGdDq9vCrw8-OCag2Upq9VTSzhAdgOQw4H0WPbnumq3hy3fbQiVgXxf0vZjg18mKhZKVgRjrjKaO9s0fMoNc_p9"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bFqXD6fddn6PF15YL8c7sGtN2-n_jjsGex9oGFewXhrJQ_6KYg7ip8ETWX_wHgrMWF7FzvJbRghDIATqZlRrZgI_gOu8zJJCOq1G_o6fgrXHIctBw-Md1WShMiymM8Y8tkNX0xS"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e3M6NZVwTCCqV3L6KEcbkn:APA91bFEBn4omGfTCwcRWcRonYQ0Vj9uXfgn81C09WcNtG6krCvprIWFMlNg3a9WUUaztf2drq9a2hs70sx1mjtAtklrLsRxIaovmjIH0WH1dsSxo4zRArhk2ibyTp6mq607axA1ObVa"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bHwDSoLh_IxXkw3TclpR6uRm02PS1fc6i1ACRGs-XVk4nvZr8HDdBuREA6WSoepHHSJyOL1H6zCW1FEMhGm_TuisD4YjuJQXhAyhByHt5uQkisZA87K2CKe59MHr0jQatwZrQGU"
+            }
+          ]
+        },
+        "id": "649bffb149f92ab255e631ff"
+      },
+      {
+        "_id": "649c23e169ffe177cf102278",
+        "relatedTo": {
+          "objectId": "63b78665ed430580b836e8a6",
+          "schemaId": "/farmbook/farmer"
+        },
+        "modifications": {
+          "agents": [
+            "63d0bfaa8273ab2acc4e12d1"
+          ]
+        },
+        "createdAt": "2023-06-28T12:13:21.236Z",
+        "userItem": {
+          "_id": "63b77f59a62c0f681fec4f4b",
+          "personalDetails": {
+            "firstName": "Ashwin",
+            "lastName": "Dhanasri",
+            "email": "ashwin@carbonmint.com",
+            "primaryPhone": "+918888888888"
+          },
+          "roles": {
+            "farmbook": [
+              "AGENT",
+              "FIELD_OFFICER"
+            ],
+            "kadavur-organic-farmers": [
+              "AGENT",
+              "ADMIN"
+            ],
+            "inba-seva-sangam": [
+              "AGENT",
+              "ADMIN"
+            ]
+          },
+          "active": true,
+          "devices": [
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fRgRkbuFTvKmPPLi9HYn0c:APA91bFAq7UozCJlPldHFhKIrOH0LSa3gH-t0Ruv1WTlhlL66W_V4jQH86EtjcZkNHhPcIhqkuy1czyIjkFYO4CjsOEdBgpIhWjxPS0NDrySys_t745p0sNOz9EeoaOUYAHNlhs_NJi8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGweEe_XJRb1euDYHIZSCUY0H775RzAJBJId2iRLozpEb0OojrpR8JbiPzSqHBhB8KoFuTloHI5y2csoMWpEl_K7LP3b70Sp0VFyXPXe-qN6_255cIlvTBmjEDHuluXCtc7N4oG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bGhUvRsCUeEDvUItIK-95Ze8xfNrVly_1CCyMkL8oO9CmEQ3EeuBqz5fe2pk6Mh-00LZ50s9aAVX3Ca2x5gYWuBinH8YQau5iVc_w_ldGqWMect_XhUNGCmO8-d_lErJ_itO834"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bG2Qw1V1QhJLqC3jB6yF-vcr0BdPs0vlWqS3LSO7szqjZ5ZgidbcbBrTKA8pejvMEUGaNHnELe-i9MvFhgAoWYYMX3tqUmBJLDoTbhAoWTUH3trnl_bgYjqsYYWihXdpGObJfBJ"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bFzm27OncXlDPNCCCHNylVCU4waZ0BujkdbtAmBTFf2w1pHP_LGfW6JPnPgzEQEUJLKxJH_kgeerrR2YN5gznZ3pcpW5UFFxiw9BDMLaA4ejODx9xCyeCsEck706vFMyeZq_ctM"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fCygisIPT7C9-_3mwOEueb:APA91bEwNJxLPhJ18b7NlVXvExi6Hm947e_siBBkCWrm1_2dzDrvGTqd_iTfbblkS4YbN57Ds5NWhSKX67RhdVWrcp31SF511TMSqf_ip5Lofaj7hSyoHdCdXU5g09JuA4kPkeMgBE_g"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fSlPlNtSTYyG3e5PPC3orm:APA91bHdI6zkcXW98wwihEUkKUzkYpuqHzfbrzYWm9I4oF3X5xVs6nu-RTOdKxApLkjX3RTKdS6BbCyreUsEcuqDOC4emJtQa-pi0cJ5igeTBh3Ga8uzZJTFE4h9-1Bi4seAMbr_2qW8"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fkZCOrlITuSXyO8Y4EAChr:APA91bFXeVNfsKm8pG-kjf73QaE1jcnUbJoUVT5cPiVAesIFyyp9ESV21or3aGh3kJNGYl5koRuTVrQmZu8H92upHaZN4_QJg8-iulzgJipeyCAAHYf4jAKPt4XZooy55N_J_hxgDg2-"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e7_ncKz7RKSfLpYD0gB9Nb:APA91bGdCBKNEzqx1rEf55vSxwGh2if1ONclvaff_0_mc8auJfb5T5tCinNlv63QLSvZ8AasoAvIU1qEPcNC3W9sqWxfZeqE4rQWvlRCQHrYVIbsWVZiXxOMVB48zmUXgdZYuQWe-oYG"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "cDycRa7xRyOLXA0zbynuNb:APA91bF0_bbsKkxtasF-jng96HCdNBT11sCFB3zi4a3xd8h8VuNYFDCvJPnmz7PVz0rbrb4AnlKwqbFHTXgU9te1fxtvNJW5bDwe6nJXdVtzsJVH4MH5rKEZrkR8zVdX5MMZxYkyNplu"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fFkeGsiPRa2sn9rgeT23Mq:APA91bEvu2qa2QZlQF1OTCh64E8aUPpL7nhbikPtnmwLR0tRzcy-Q4yjRX0rNJNYHp_vsRnRsVWOa-SW9fnRnzQUj8v2FK5Inz8EOTwatzllgRmOMkT0QfqNr23-WjfAIt6cTCaI3QBp"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "fH3P_s2BRJyGM-LS4z4KCl:APA91bEGZQ0co0g_mC3aeeakq1ou9xjSCnJlcoAXUYoSrjpSqULWhEGdDq9vCrw8-OCag2Upq9VTSzhAdgOQw4H0WPbnumq3hy3fbQiVgXxf0vZjg18mKhZKVgRjrjKaO9s0fMoNc_p9"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bFqXD6fddn6PF15YL8c7sGtN2-n_jjsGex9oGFewXhrJQ_6KYg7ip8ETWX_wHgrMWF7FzvJbRghDIATqZlRrZgI_gOu8zJJCOq1G_o6fgrXHIctBw-Md1WShMiymM8Y8tkNX0xS"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "e3M6NZVwTCCqV3L6KEcbkn:APA91bFEBn4omGfTCwcRWcRonYQ0Vj9uXfgn81C09WcNtG6krCvprIWFMlNg3a9WUUaztf2drq9a2hs70sx1mjtAtklrLsRxIaovmjIH0WH1dsSxo4zRArhk2ibyTp6mq607axA1ObVa"
+            },
+            {
+              "info": "AndroidDevice",
+              "fcmToken": "eBZJ_oONQXKJl0_bDKjMBl:APA91bHwDSoLh_IxXkw3TclpR6uRm02PS1fc6i1ACRGs-XVk4nvZr8HDdBuREA6WSoepHHSJyOL1H6zCW1FEMhGm_TuisD4YjuJQXhAyhByHt5uQkisZA87K2CKe59MHr0jQatwZrQGU"
+            }
+          ]
+        },
+        "id": "649c23e169ffe177cf102278"
+      }
+    ],
+    "id": "63b78665ed430580b836e8a6",
+    "landParcelFarmers": [
+      {
+        "landParcel": "63b7867aed430580b836e8ca",
+        "own": true
+      },
+      {
+        "landParcel": "64549e1530460eb79720a624",
+        "own": true
+      }
+    ],
+    "osps": [
+      {
+        "landParcel": {
+          "id": "63b7867aed430580b836e8cf",
+          "name": "M.Amutha Farm"
+        },
+        "crops": [
+          {
+            "cropType": "M",
+            "crop": "Cotton",
+            "cropArea": 1,
+            "estQty": 1,
+            "sowingDate": "2023-09-28"
+          }
+        ],
+        "year": 2021,
+        "totalArea": 1234,
+        "latitude": "17.42",
+        "longitude": "77.25",
+        "_id": {
+          "$oid": "6507f90f574ff411752af98b"
+        },
+        "fbId": "KAD-OS-7707",
+        "id": "6507f90f574ff411752af98b"
+      },
+      {
+        "landParcel": {
+          "id": "63b7867aed430580b836e8cb",
+          "name": "S.Arockiyamery Farm"
+        },
+        "crops": [
+          {
+            "cropType": "M",
+            "crop": "Cotton",
+            "cropArea": 1,
+            "estQty": 1,
+            "sowingDate": "2023-09-28"
+          }
+        ],
+        "year": 2022,
+        "totalArea": 1,
+        "latitude": "17.43",
+        "longitude": "77.25",
+        "_id": {
+          "$oid": "6507fd20574ff411752af9ad"
+        },
+        "fbId": "KAD-OS-8971"
+      },
+      {
+        "landParcel": {
+          "id": "63b7867aed430580b836e8ca",
+          "name": "Thaiyammal Farm"
+        },
+        "crops": [
+          {
+            "cropType": "M",
+            "crop": "Cotton",
+            "cropArea": 2,
+            "estQty": 2,
+            "sowingDate": "2023-08-31"
+          }
+        ],
+        "year": 2022,
+        "totalArea": 2,
+        "latitude": "45.4",
+        "longitude": "54.3",
+        "_id": {
+          "$oid": "650d6b3544d5c3769eb1faf4"
+        },
+        "fbId": "KAD-OS-9226"
+      },
+      {
+        "landParcel": {
+          "id": "63b7867aed430580b836e8ca",
+          "name": "Thaiyammal Farm"
+        },
+        "crops": [
+          {
+            "cropType": "M",
+            "crop": "Cotton",
+            "cropArea": 1,
+            "estQty": 1,
+            "sowingDate": "2023-09-25"
+          }
+        ],
+        "year": 2020,
+        "totalArea": 1,
+        "latitude": "17.43",
+        "longitude": "77.25",
+        "_id": {
+          "$oid": "650e3ace0d2873d4e63ab523"
+        },
+        "fbId": "KAD-OS-4720",
+        "createdBy": null,
+        "createdAt": "2023-09-23T01:09:34.720Z"
+      },
+      {
+        "landParcel": {
+          "id": "63b7867aed430580b836e8ca",
+          "name": "Thaiyammal Farm"
+        },
+        "crops": [
+          {
+            "cropType": "M",
+            "crop": "Cotton",
+            "cropArea": 1,
+            "estQty": 1,
+            "sowingDate": "2023-09-27"
+          }
+        ],
+        "year": 2019,
+        "totalArea": 1,
+        "latitude": "17.43",
+        "longitude": "77.25",
+        "_id": {
+          "$oid": "650ebaa60d2873d4e63ab54c"
+        },
+        "fbId": "KAD-OS-2821",
+        "createdBy": null,
+        "createdAt": "2023-09-23T10:15:02.821Z"
+      },
+      {
+        "year": 2023,
+        "crops": [
+          {
+            "crop": "tomato",
+            "variety": "a1",
+            "cropType": "I",
+            "season": "Rabi",
+            "cropArea": 2,
+            "estQty": 213,
+            "sowingDate": "2023-01-01"
+          }
+        ],
+        "totalArea": 0.5,
+        "landParcel": {
+          "id": "63b7867aed430580b836e8ca",
+          "name": "Thaiyammal Farm"
+        },
+        "latitude": "10.588775275404405",
+        "longitude": "78.15406014178815",
+        "_id": {
+          "$oid": "6555ed689c1ae56f245db214"
+        },
+        "fbId": "KAD-OS-2684",
+        "createdAt": "2023-11-16T10:22:32.684Z"
+      },
+      {
+        "year": 2023,
+        "crops": [
+          {
+            "crop": "tomato",
+            "variety": "a1",
+            "cropType": "I",
+            "season": "Rabi",
+            "cropArea": 2,
+            "estQty": 213,
+            "sowingDate": "2023-01-01"
+          }
+        ],
+        "totalArea": 0.5,
+        "landParcel": {
+          "id": "63b7867aed430580b836e8ca",
+          "name": "Thaiyammal Farm"
+        },
+        "latitude": "10.588775275404405",
+        "longitude": "78.15406014178815",
+        "_id": {
+          "$oid": "6555ed689c1ae56f245db212"
+        },
+        "fbId": "KAD-OS-2683",
+        "createdAt": "2023-11-16T10:22:32.683Z"
+      },
+      {
+        "year": 2023,
+        "crops": [
+          {
+            "crop": "tomato",
+            "variety": "a1",
+            "cropType": "I",
+            "season": "Rabi",
+            "cropArea": 2,
+            "estQty": 213,
+            "sowingDate": "2023-01-01"
+          }
+        ],
+        "totalArea": 4,
+        "landParcel": {
+          "id": "64549e1530460eb79720a624",
+          "name": "Ace Farm"
+        },
+        "latitude": "17.395883049430317",
+        "longitude": "78.33217286494501",
+        "_id": {
+          "$oid": "6555ed689c1ae56f245db216"
+        },
+        "fbId": "KAD-OS-2685",
+        "createdAt": "2023-11-16T10:22:32.685Z"
+      },
+      {
+        "year": 2023,
+        "crops": [
+          {
+            "crop": "tomato",
+            "variety": "a1",
+            "cropType": "I",
+            "season": "Rabi",
+            "cropArea": 2,
+            "estQty": 213,
+            "sowingDate": "2023-01-01"
+          }
+        ],
+        "totalArea": 4,
+        "landParcel": {
+          "id": "64549e1530460eb79720a624",
+          "name": "Ace Farm"
+        },
+        "latitude": "17.395883049430317",
+        "longitude": "78.33217286494501",
+        "_id": {
+          "$oid": "6555ed689c1ae56f245db20e"
+        },
+        "fbId": "KAD-OS-2673",
+        "createdAt": "2023-11-16T10:22:32.673Z"
+      },
+      {
+        "year": 2023,
+        "crops": [
+          {
+            "crop": "tomato",
+            "variety": "a1",
+            "cropType": "I",
+            "season": "Rabi",
+            "cropArea": 2,
+            "estQty": 213,
+            "sowingDate": "2023-01-01"
+          }
+        ],
+        "totalArea": 4,
+        "landParcel": {
+          "id": "64549e1530460eb79720a624",
+          "name": "Ace Farm"
+        },
+        "latitude": "17.395883049430317",
+        "longitude": "78.33217286494501",
+        "_id": {
+          "$oid": "6555ed689c1ae56f245db210"
+        },
+        "fbId": "KAD-OS-2680",
+        "createdAt": "2023-11-16T10:22:32.680Z"
+      }
+    ],
+    "inspectionDetails": [
+      {
+        "landParcel": {
+          "id": "63b7867aed430580b836e8cf",
+          "name": "M.Amutha Farm"
+        },
+        "crops": [],
+        "reports": [],
+        "year": 2021,
+        "inspectionNo": 1234211,
+        "inspectionDate": "2023-09-12",
+        "inspector": "Shyam",
+        "results": "passed",
+        "_id": {
+          "$oid": "6507f92b574ff411752af995"
+        },
+        "fbId": "KAD-IS-5104",
+        "id": "6507f92b574ff411752af995",
+        "notes": "sfsf"
+      }
+    ],
+    "schemes": [
+      {
+        "certificationBodyId": {
+          "id": "63c13ef45a5b96244eab256b",
+          "name": "ISCOP"
+        },
+        "scheme": "NPOP",
+        "conversionStatus": "C1",
+        "certificationStatus": "In-progress",
+        "certificationDocument": [],
+        "_id": {
+          "$oid": "650d716044d5c3769eb1fb38"
+        },
+        "fbId": "KAD-SS-8661"
+      },
+      {
+        "certificationBodyId": {
+          "id": "63c13ef45a5b96244eab256b",
+          "name": "ISCOP"
+        },
+        "scheme": "NPOP",
+        "conversionStatus": "C1",
+        "certificationStatus": "In-progress",
+        "certificationDocument": [],
+        "_id": {
+          "$oid": "650d725944d5c3769eb1fb42"
+        },
+        "fbId": "KAD-SS-7712"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "63cf6526bbe81a2b4f5573e0"
+    },
+    "personalDetails": {
+      "address": {
+        "village": "Valaiyapatty",
+        "mandal": "Karur",
+        "state": "Tamil Nadu",
+        "pincode": "621315"
+      },
+      "identityDetails": {
+        "identityDocumentFile": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/identityDocumentFile-1675076584540--Subramaniyan Aadhar.pdf",
+        "identityDocument": "Aadhar",
+        "identityNumber": "747986470922"
+      },
+      "firstName": "Subramani",
+      "fathersHusbandsName": "Kaliyappan",
+      "primaryPhone": "+919585569981",
+      "profilePicture": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/profilePicture-1675876058548--Subramaniyan photo_ PDF.jpg"
+    },
+    "gender": "Male",
+    "farmingExperience": {
+      "totalFarmingExperienceYears": 10,
+      "organicFarmingExperienceYears": 10,
+      "cropsWithOrganicFarmingExperience": "Vegetables, Pulses, Creals",
+      "livestockExperience": "cow-2, goat-4"
+    },
+    "operatorDetails": {
+      "farmerID": "KOFA 113",
+      "joiningDate": "2008-01-01"
+    },
+    "status": "Draft",
+    "collectives": [
+      "63b7805ca62c0f681fec4f50"
+    ],
+    "fbId": "KAD-FR-0097",
+    "active": true,
+    "agents": [
+      "63b780a0a62c0f681fec4f52"
+    ],
+    "bankDetails": {
+      "bankDocument": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/bankDocument-1676357542185--Subramaniyan bank book.pdf",
+      "accountNumber": "137101000005076",
+      "name": "Indian Overseas Bank",
+      "branch": "Kadavoor(1371)",
+      "ifsc": "IOBA0001371"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63b78665ed430580b836e8b4"
+    },
+    "personalDetails": {
+      "address": {
+        "village": "Sevapur",
+        "mandal": "karur",
+        "state": "Tamil Nadu",
+        "pincode": "621311"
+      },
+      "identityDetails": {
+        "identityNumber": "373145375986",
+        "identityDocument": "Aadhar",
+        "identityDocumentFile": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/identityDocumentFile-1674812414036--Karuppaswami Aadhar.pdf"
+      },
+      "firstName": "Karuppasamy",
+      "lastName": "M",
+      "fathersHusbandsName": "Mookan",
+      "primaryPhone": "8760717292",
+      "profilePicture": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/profilePicture-1675873304999--Karuppa Swami Photo pds.jpg"
+    },
+    "farmingExperience": {
+      "totalFarmingExperienceYears": 15,
+      "organicFarmingExperienceYears": 21,
+      "cropsWithOrganicFarmingExperience": "Vegetables, Pulses, creals",
+      "livestockExperience": "cow-1",
+      "agriAlliedActivitiesExperience": ""
+    },
+    "operatorDetails": {
+      "farmerID": "KOFA 75",
+      "joiningDate": "2023-03-02",
+      "identityDocument": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/identityDocument-1674812427465--Karuppaswami ICS agrement.pdf",
+      "subgroup": {
+        "id": "650d57cef0d596447927f8eb",
+        "name": "sub group 2"
+      }
+    },
+    "collectives": [
+      "63b7805ca62c0f681fec4f50"
+    ],
+    "status": "Draft",
+    "active": true,
+    "agents": [
+      "63b780a0a62c0f681fec4f52"
+    ],
+    "userId": "63c21c7a7bbc3398288d1efc",
+    "gender": "Male",
+    "bankDetails": {
+      "bankDocument": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/bankDocument-1676356834848--Karuppaswami bank book.pdf",
+      "accountNumber": "137101000022731",
+      "name": "Indian Overseas Bank",
+      "branch": "Kadavoor(1371)",
+      "ifsc": "IOBA0001371"
+    },
+    "osps": [
+      {
+        "landParcel": {
+          "id": "63b7867aed430580b836e8d8",
+          "name": "M.Karuppasamy Farm"
+        },
+        "crops": [
+          {
+            "cropType": "M",
+            "crop": "onion",
+            "cropArea": 23,
+            "estQty": 23,
+            "sowingDate": "2023-07-06"
+          }
+        ],
+        "year": 2023,
+        "totalArea": 23,
+        "latitude": "23",
+        "longitude": "23",
+        "_id": {
+          "$oid": "65154f0fe4e54e8bdd855f10"
+        },
+        "fbId": "KAD-OS-1491",
+        "createdBy": null,
+        "createdAt": "2023-09-28T10:01:51.491Z"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "63b78665ed430580b836e8ba"
+    },
+    "personalDetails": {
+      "address": {
+        "village": "Valaiyapatty",
+        "mandal": "karur",
+        "state": "Tamil Nadu",
+        "pincode": "621311"
+      },
+      "identityDetails": {
+        "identityNumber": "565641326090",
+        "identityDocument": "Aadhar",
+        "identityDocumentFile": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/identityDocumentFile-1674813110050--Rani raman Aadhar.pdf"
+      },
+      "firstName": "Rani",
+      "lastName": "R",
+      "fathersHusbandsName": "A.Raman",
+      "primaryPhone": "8695895070",
+      "profilePicture": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/profilePicture-1675873491351--Rani.Raman Photo pds.jpg"
+    },
+    "farmingExperience": {
+      "totalFarmingExperienceYears": 10,
+      "organicFarmingExperienceYears": 10,
+      "cropsWithOrganicFarmingExperience": "Vegetables, Pulses, creals",
+      "livestockExperience": "cow-2, goat-4",
+      "agriAlliedActivitiesExperience": ""
+    },
+    "operatorDetails": {
+      "farmerID": "KOFA 102",
+      "joiningDate": "2023-03-02",
+      "identityDocument": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/identityDocument-1674813125109--Rani.Raman ics agrement.pdf",
+      "subgroup": "65042c4e8c3f6a802710e232"
+    },
+    "collectives": [
+      "63b7805ca62c0f681fec4f50"
+    ],
+    "status": "Draft",
+    "active": true,
+    "agents": [
+      "63b780a0a62c0f681fec4f52"
+    ],
+    "userId": "63c21ee07bbc3398288d1f05",
+    "gender": "Male",
+    "bankDetails": {
+      "name": "Indian Overseas Bank",
+      "branch": "Kadavoor(1371)",
+      "accountNumber": "137101000005694",
+      "ifsc": "IOBA0001371",
+      "bankDocument": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/bankDocument-1676888408514--Rani-ISS.pdf"
+    },
+    "documents": [
+      {
+        "documentType": "Training certificate",
+        "documentDetails": "Experience certificate",
+        "documentEvidence": "https://dev.reactml.carbonmint.com/api/file/public?id=/gridfs:reactml-dev/documentEvidence-1694693607600--E2kXlSFVIAA5cVF.jpeg"
+      }
+    ],
+    "inspectionDetails": [
+      {
+        "landParcel": {
+          "id": "64fee5a38c0c31b201050fb5",
+          "name": "Farms"
+        },
+        "crops": [
+          {
+            "cropName": "pepper",
+            "area": "21",
+            "estYield": "12"
+          }
+        ],
+        "reports": [
+          "https://dev.reactml.carbonmint.com/api/file/public?id=/gridfs:reactml-dev/reports-1695107224035--download (2).jpeg"
+        ],
+        "year": 2025,
+        "inspectionNo": 1,
+        "inspectionDate": "2023-03-02",
+        "inspector": "vinay",
+        "results": "verified",
+        "notes": "ax",
+        "_id": {
+          "$oid": "65094898221ea5b7e6d2cd72"
+        },
+        "fbId": "KAD-IS-4135"
+      }
+    ],
+    "osps": [
+      {
+        "year": 2023,
+        "crops": [
+          {
+            "cropType": "M",
+            "crop": "Crop1",
+            "variety": "Variety 1",
+            "cropArea": 1.11,
+            "estQty": 200,
+            "sowingDate": "2016-04-27"
+          },
+          {
+            "cropType": "I",
+            "crop": "Crop 2",
+            "variety": "Variety 2",
+            "cropArea": 2.22,
+            "estQty": 600,
+            "sowingDate": "2017-04-27"
+          }
+        ],
+        "totalArea": 0.18,
+        "landParcel": {
+          "id": "63b7867aed430580b836e8de",
+          "name": "R.Rani  east Farm"
+        },
+        "latitude": "10.592609607021071",
+        "longitude": "78.15792108214816",
+        "_id": {
+          "$oid": "6554693d1e30554b089e4a53"
+        },
+        "fbId": "KAD-OS-1618",
+        "createdAt": "2023-11-15T06:46:21.618Z",
+        "composting": {
+          "sourcesOfCompost": {
+            "compostProcurementSources": []
+          }
+        },
+        "conversionRequirements": {
+          "cropRotation": {
+            "cropRotationIssues": []
+          },
+          "bufferZone": {
+            "bufferTypes": [],
+            "bufferAreas": [],
+            "bufferDescriptionAttachment": []
+          }
+        },
+        "cropProductionPlan": {
+          "resourcePotential": {
+            "soilFertility": [],
+            "waterDependencies": [],
+            "facilities": []
+          },
+          "inputDependencies": {
+            "seedDependencies": []
+          },
+          "postHarvestHandling": {
+            "postHarvestHandlingActivities": []
+          }
+        },
+        "diseaseManagement": {
+          "diseaseManagementPlan": {
+            "diseaseManagementItems": []
+          }
+        },
+        "id": "6554693d1e30554b089e4a53",
+        "landPastUseDocumentation": {
+          "landPastUseDocumentationGrid": [],
+          "criticalObservation": []
+        },
+        "landscapeCOP401": {
+          "landscapeCOP4012": {
+            "boundaryDescription": [],
+            "fieldsUnderSplitParallelProduction": []
+          },
+          "landscapeCOP4013": {
+            "fieldMapAttachments": [],
+            "attachedFields": []
+          },
+          "landRecordsEndorsement": {
+            "endorsementItems": []
+          }
+        },
+        "materialList": {
+          "soilFertilityInputsFrame": {
+            "soilFertilityInputs": []
+          },
+          "cropNutritionMaterialsFrame": {
+            "cropNutritionMaterials": []
+          },
+          "cropProtectionFrame": {
+            "cropProtection": []
+          },
+          "farmSupportInputsFrame": {
+            "farmSupportInputs": []
+          }
+        },
+        "mulchingAwareness": {
+          "mulchingAndMulchMaterials": {
+            "mulchMaterialsSource": [],
+            "mulchPurpose": []
+          }
+        },
+        "oOSPFormsLandProfileofOperator": {
+          "farmOperationScope": [],
+          "extentOfConversion": {
+            "extentOfConversionGrid": [],
+            "landRequirementsSubmission": [],
+            "locationIdentity": []
+          },
+          "landOwnershipStatus": {
+            "landOwnershipStatusGrid": [],
+            "owenershipEvidence": []
+          }
+        },
+        "operatorRecords": {
+          "typesOfRecords": []
+        },
+        "organicAwareness": {
+          "socioEconomicAwareness": {
+            "approachReasons": []
+          },
+          "productionAwareness": {
+            "learnedOrExecutedPractices": [],
+            "awarenessOfTerms": []
+          }
+        },
+        "ospFormsCheckList": {
+          "ospForms": {
+            "supplementaryDocumentation": []
+          }
+        },
+        "pestManagement": {
+          "pestManagementPlan": {
+            "pestManagementItems": []
+          }
+        },
+        "postHarvestHandling": {
+          "handlingScope": {
+            "scopeOfHandling": []
+          },
+          "handlingFacilityManagement": {
+            "contaminationComminglingControls": [],
+            "waterQuality": [],
+            "pestManagementPlan": []
+          }
+        },
+        "sales": {
+          "salesPlan": {
+            "salesOptions": [],
+            "labelingOptions": [],
+            "labelCopies": []
+          }
+        },
+        "seedStock": {
+          "annualSeeds": {
+            "seedsList": [],
+            "gmoDeclarationAttachment": []
+          }
+        },
+        "soilAndWaterQuality": {
+          "soilAnalysis": {
+            "knowSoilType": false,
+            "soilType": [],
+            "recentSoilTestReport": false,
+            "recentSoilTestReportAttachement": [],
+            "aspectsCovered": [],
+            "monitorMethod": []
+          },
+          "soilFertilityPlan": {
+            "majorPractices": [],
+            "onFarmInitiatives": []
+          },
+          "waterAnalysis": {
+            "waterDependencies": [],
+            "waterQualityAwareness": []
+          },
+          "waterManagementPlan": {
+            "waterSource": [],
+            "waterQualityManagementPlans": [],
+            "materialsUsedForIrrigation": [],
+            "waterUsePlan": []
+          }
+        },
+        "weedManagement": {
+          "weedManagementPlan": {
+            "weedManagementItems": []
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "63b78665ed430580b836e8a8"
+    },
+    "personalDetails": {
+      "address": {
+        "village": "Sevapur",
+        "mandal": "karur",
+        "state": "Tamil Nadu",
+        "pincode": "621311"
+      },
+      "identityDetails": {
+        "identityNumber": "722095753815",
+        "identityDocument": "Aadhar",
+        "identityDocumentFile": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/identityDocumentFile-1674813504736--M.Pitchaia Aadhar.pdf"
+      },
+      "firstName": "Pitchai",
+      "lastName": "M",
+      "fathersHusbandsName": "Muthukumar",
+      "primaryPhone": "9025188553",
+      "profilePicture": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/profilePicture-1675872810084--m.pitchai Photo pds.jpg"
+    },
+    "farmingExperience": {
+      "totalFarmingExperienceYears": 5,
+      "organicFarmingExperienceYears": 5,
+      "cropsWithOrganicFarmingExperience": "Tomato, Pulses, cereals",
+      "livestockExperience": "cow-1",
+      "agriAlliedActivitiesExperience": ""
+    },
+    "operatorDetails": {
+      "farmerID": "KOFA 63",
+      "joiningDate": "01/01/2008",
+      "identityDocument": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/identityDocument-1674813521474--M.Pitchai ics agrement.pdf"
+    },
+    "collectives": [
+      "63b7805ca62c0f681fec4f50"
+    ],
+    "status": "Draft",
+    "active": true,
+    "agents": [
+      "63b780a0a62c0f681fec4f52"
+    ],
+    "userId": "63c21fc27bbc3398288d1f0a",
+    "gender": "Male",
+    "bankDetails": {
+      "bankDocument": "https://organova.carbonmint.com/api/file/public?id=/gridfs:organova/bankDocument-1676356209905--M.Pitchai Bank book.pdf",
+      "name": "State Bank Of India",
+      "branch": "Manapparai",
+      "accountNumber": "11270260934",
+      "ifsc": "SBIN0000995"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63b780a0a62c0f681fec4f52"
+    },
+    "personalDetails": {
+      "address": {
+        "village": "mnmbn",
+        "state": "bn",
+        "pincode": " nmn"
+      },
+      "firstName": "nn",
+      "lastName": "bb"
+    },
+    "gender": "Male",
+    "operatorDetails": {
+      "joiningDate": "2015-05-06"
+    },
+    "status": "Draft",
+    "collectives": [
+      "63b7805ca62c0f681fec4f50"
+    ],
+    "fbId": "KAD-FR-6532",
+    "active": false,
+    "createdAt": "2023-05-08T06:43:56.532Z",
+    "agents": [
+      "64535fd4d8cdc92174b43588"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "64a7fc9f0e08382da688318b"
+    },
+    "personalDetails": {
+      "address": {
+        "village": "guntur",
+        "state": "AndhraPradesh",
+        "pincode": "560072"
+      },
+      "firstName": "sesh"
+    },
+    "roles": {
+      "kadavur-organic-farmers": [
+        "FARMER"
+      ],
+      "farmbook": [
+        "FARMER"
+      ]
+    },
+    "active": true,
+    "createdAt": "2023-07-07T11:53:03.828Z"
+  },
+  {
+    "_id": {
+      "$oid": "64b0d5fe82e9f6924b34788c"
+    },
+    "personalDetails": {
+      "address": {
+        "village": "guntur",
+        "state": "AndhraPradesh",
+        "pincode": "560072"
+      },
+      "firstName": "sesh"
+    },
+    "roles": {
+      "kadavur-organic-farmers": [
+        "FARMER"
+      ],
+      "farmbook": [
+        "FARMER"
+      ]
+    },
+    "active": true,
+    "createdAt": "2023-07-14T04:58:38.917Z"
+  },
+  {
+    "_id": {
+      "$oid": "64b6270208b691d0ac7f4806"
+    },
+    "personalDetails": {
+      "address": {
+        "village": "guntur",
+        "state": "AndhraPradesh",
+        "pincode": "560072"
+      },
+      "firstName": "sesh"
+    },
+    "roles": {
+      "kadavur-organic-farmers": [
+        "FARMER"
+      ],
+      "farmbook": [
+        "FARMER"
+      ]
+    },
+    "active": true,
+    "createdAt": "2023-07-18T05:45:38.150Z"
+  },
+  {
+    "_id": {
+      "$oid": "64b62ca8d7be11c82e62f328"
+    },
+    "personalDetails": {
+      "address": {
+        "village": "kanpur",
+        "state": "Uttar pradesh",
+        "pincode": "208090"
+      },
+      "firstName": "shivani testing",
+      "primaryPhone": "+912229999999"
+    },
+    "roles": {
+      "kadavur-organic-farmers": [
+        "FARMER"
+      ],
+      "farmbook": [
+        "FARMER"
+      ]
+    },
+    "active": true,
+    "createdAt": "2023-07-18T06:09:44.859Z"
+  },
+  {
+    "_id": {
+      "$oid": "64ba34e626a1702711101c6f"
+    },
+    "personalDetails": {
+      "address": {
+        "village": "guntur",
+        "state": "AndhraPradesh",
+        "pincode": "560072"
+      },
+      "firstName": "sesh"
+    },
+    "roles": {
+      "kadavur-organic-farmers": [
+        "FARMER"
+      ],
+      "farmbook": [
+        "FARMER"
+      ]
+    },
+    "active": true,
+    "createdAt": "2023-07-21T07:33:58.832Z"
+  }
+]

@@ -1,0 +1,69 @@
+hierarchy:
+  - name: FarmerCropHierarchy
+    primaryEntity: farmers
+    id: 1
+    roles:
+      - name: "FO"
+        role: "Field Officer"
+        connectionWithPrimaryEntity: agents
+
+      - name: "ADMIN"
+        role: "Unit Admin"
+        connectionWithPrimaryEntity: agents
+
+      - name: "Farmer"
+        role: "Farmer"
+        connectionWithPrimaryEntity: userId
+
+        
+    entities:
+      - name: landparcel_farmers
+        filterationKey: "_id"
+        condition: "farmer"
+
+      - name: landparcels
+        filterationKey: "landParcel"
+
+      - name: crops
+        filterationKey: "_id"
+        condition: "landParcel.id"
+
+  - name: FarmerEventHierarchy
+    primaryEntity: farmers
+    id: 2
+    roles:
+      - name: "FO"
+        role: "Field Officer"
+        connectionWithPrimaryEntity: agents
+      - name: "ADMIN"
+        role: "Unit Admin"
+        connectionWithPrimaryEntity: agents
+      - name: "Farmer"
+        role: "Farmer"
+        connectionWithPrimaryEntity: userId
+    entities:
+      - name: landparcel_farmers
+        filterationKey: "_id"
+        condition: "farmer"
+
+      - name: landparcels
+        filterationKey: "landParcel"
+
+      - name: crops
+        filterationKey: "_id"
+        condition: "landParcel.id"
+
+      - name: events
+        filterationKey: "_id"
+        condition: "cropId"
+
+  - name: ServiceProvider
+    primaryEntity: task
+    id: 3
+    roles:
+      - name: "FO"
+        role: "Field Officer"
+        connectionWithPrimaryEntity: agents
+      - name: "ADMIN"
+        role: "Unit Admin"
+        connectionWithPrimaryEntity: agents
